@@ -115,9 +115,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building & Maintaining Java SpringBoot applications",
+        "⚡ Experience with multiple frontend CMS platforms",
+        "⚡ Optimizations and improvements to enable optimal performance",
       ],
       softwareSkills: [
         {
@@ -135,14 +135,14 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
+          skillName: "SpringBoot",
           fontAwesomeClassname: "simple-icons:spring-boot",
           style: {
             color: "#CC6699",
           },
         },
         {
-          skillName: "JavaScript",
+          skillName: "Java",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
             backgroundColor: "#000000",
@@ -157,14 +157,14 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
+          skillName: "JUnit5",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
             color: "#339933",
           },
         },
         {
-          skillName: "NPM",
+          skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
@@ -177,24 +177,79 @@ const skills = {
             color: "#2C8EBB",
           },
         },
+      ],
+    },
+
+    {
+      title: "Platforms",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
+      ],
+
+      softwareSkills: [
         {
-          skillName: "Squarespace",
+          skillName: "Pivotal Cloud Foundry (PCF)",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "MacOS",
+          fontAwesomeClassname: "simple-icons:macos",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "SquareSpace",
           fontAwesomeClassname: "simple-icons:squarespace",
           style: {
-            color: "#663399",
+            color: "#F24E1E",
           },
         },
         {
           skillName: "Shopify",
           fontAwesomeClassname: "simple-icons:shopify",
           style: {
-            color: "#02569B",
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Wordpress",
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "CloudFlare",
+          fontAwesomeClassname: "simple-icons:cloudflare",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "IntelliJ",
+          fontAwesomeClassname: "simple-icons:cloudflare",
+          style: {
+            color: "#FF7C00",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Interests",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -204,15 +259,15 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Agile Development",
+          fontAwesomeClassname: "simple-icons:kali",
           style: {
             color: "#4285F4",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Cybersecurity",
+          fontAwesomeClassname: "simple-icons:kali",
           style: {
             color: "#FF9900",
           },
@@ -225,77 +280,24 @@ const skills = {
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#FFCA28",
           },
         },
         {
-          skillName: "PostgreSQL",
+          skillName: "Autiomation & IOT",
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#336791",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Graphic Design",
+          fontAwesomeClassname: "simple-icons:adobe",
           style: {
             color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
