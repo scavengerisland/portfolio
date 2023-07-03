@@ -136,16 +136,15 @@ const skills = {
         },
         {
           skillName: "SpringBoot",
-          fontAwesomeClassname: "simple-icons:spring-boot",
+          fontAwesomeClassname: "bxl:spring-boot",
           style: {
-            color: "#CC6699",
+            color: "green",
           },
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:javascript",
+          fontAwesomeClassname: "logos:java",
           style: {
-            backgroundColor: "#000000",
             color: "#F7DF1E",
           },
         },
@@ -158,23 +157,16 @@ const skills = {
         },
         {
           skillName: "JUnit5",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "devicon:junit",
           style: {
             color: "#339933",
           },
         },
         {
           skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:npm",
+          fontAwesomeClassname: "logos:mysql",
           style: {
             color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
           },
         },
       ],
@@ -201,28 +193,28 @@ const skills = {
           skillName: "GitHub",
           fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#FF7C00",
+            color: "black",
           },
         },
         {
           skillName: "MacOS",
-          fontAwesomeClassname: "simple-icons:macos",
+          fontAwesomeClassname: "wpf:macos",
           style: {
-            color: "#FF2BC2",
+            color: "gray",
           },
         },
         {
           skillName: "SquareSpace",
           fontAwesomeClassname: "simple-icons:squarespace",
           style: {
-            color: "#F24E1E",
+            color: "blue",
           },
         },
         {
           skillName: "Shopify",
           fontAwesomeClassname: "simple-icons:shopify",
           style: {
-            color: "#FF7C00",
+            color: "green",
           },
         },
         {
@@ -241,7 +233,7 @@ const skills = {
         },
         {
           skillName: "IntelliJ",
-          fontAwesomeClassname: "simple-icons:cloudflare",
+          fontAwesomeClassname: "skill-icons:idea-light",
           style: {
             color: "#FF7C00",
           },
@@ -260,14 +252,14 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Agile Development",
-          fontAwesomeClassname: "simple-icons:kali",
+          fontAwesomeClassname: "iconoir:agile",
           style: {
             color: "#4285F4",
           },
         },
         {
           skillName: "Cybersecurity",
-          fontAwesomeClassname: "simple-icons:kali",
+          fontAwesomeClassname: "simple-icons:kalilinux",
           style: {
             color: "#FF9900",
           },
@@ -288,14 +280,14 @@ const skills = {
         },
         {
           skillName: "Autiomation & IOT",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          fontAwesomeClassname: "mdi:home-automation",
           style: {
             color: "#336791",
           },
         },
         {
           skillName: "Graphic Design",
-          fontAwesomeClassname: "simple-icons:adobe",
+          fontAwesomeClassname: "fluent:design-ideas-24-regular",
           style: {
             color: "#47A248",
           },
