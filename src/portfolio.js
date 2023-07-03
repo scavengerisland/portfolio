@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Ethan Hutchison",
-  logo_name: "AshutoshHathidara",
+  logo_name: "EthanHutchison",
   nickname: "empathy. durability. length.",
   subTitle: "A passionate man who likes to work on your mom.",
   resumeLink: "null",
