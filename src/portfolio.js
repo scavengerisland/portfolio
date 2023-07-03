@@ -184,9 +184,9 @@ const skills = {
       title: "Platforms",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Driving digital innovation with cutting-edge platforms",
+        "⚡ Creating captivating online presence",
+        "⚡ Design-oriented engagement",
       ],
 
       softwareSkills: [
@@ -252,10 +252,10 @@ const skills = {
       title: "Interests",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Agile Software Development Lifecycle (SDLC)",
+        "⚡ Privacy and Cybersecurity",
+        "⚡ Distributed cloud computing",
+        "⚡ Automation and the IOT ",
       ],
       softwareSkills: [
         {
