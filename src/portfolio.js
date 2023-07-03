@@ -21,8 +21,8 @@ const seo = {
 const greeting = {
   title: "Ethan Hutchison",
   logo_name: "EthanHutchison",
-  nickname: "empathy. durability. length.",
-  subTitle: "A passionate man who likes to work on your mom.",
+  nickname: "people. tech. coffee.",
+  subTitle: " A passionate man who likes to work on your mom.",
   resumeLink: "null",
   portfolio_repository: "https://github.com/scavengerisland/portfolio",
   githubProfile: "https://github.com/scavengerisland",
