@@ -25,7 +25,6 @@ const greeting = {
   subTitle: "an enthusiastic team player enhancing lives through tech ",
   resumeLink: "null",
   portfolio_repository: "https://github.com/scavengerisland/portfolio",
-  githubProfile: "https://github.com/scavengerisland",
 };
 
 const socialMediaLinks = [
