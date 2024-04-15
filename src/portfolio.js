@@ -38,10 +38,10 @@ const socialMediaLinks = [
   // instagram: "https://www.instagram.com/layman_brother/"
 
   {
-    // name: "Github",
-    // link: "https://github.com/scavengerisland",
-    // fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    // backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    name: "Github",
+    link: "https://github.com/scavengerisland",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
