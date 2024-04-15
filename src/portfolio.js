@@ -24,7 +24,7 @@ const greeting = {
   nickname: "people. tech. coffee.",
   subTitle: "Strategic IT leader with 3+ years in full-stack development, agile transformations, and cloud solutions. Skilled in leading teams and driving innovation.",
   resumeLink: "null",
-  portfolio_repository: "https://github.com/scavengerisland/portfolio",
+  // portfolio_repository: "https://github.com/scavengerisland/portfolio",
 };
 
 const socialMediaLinks = [
