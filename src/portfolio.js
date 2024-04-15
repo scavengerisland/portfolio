@@ -22,7 +22,7 @@ const greeting = {
   title: "Ethan Hutchison",
   logo_name: "EthanHutchison",
   nickname: "people. tech. coffee.",
-  subTitle: "an enthusiastic team player enhancing lives through tech ",
+  subTitle: "Strategic IT leader with 3+ years in full-stack development, agile transformations, and cloud solutions. Skilled in leading teams and driving innovation.",
   resumeLink: "null",
   portfolio_repository: "https://github.com/scavengerisland/portfolio",
 };
