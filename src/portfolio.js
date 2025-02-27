@@ -25,8 +25,7 @@ const greeting = {
   subTitle:
     "Creating technology with purpose | Mission-driven developer focused on real-world impact",
   resumeLink: "null",
-  portfolio_repository: "https://github.com/scavengerisland/portfolio",
-  githubProfile: "https://github.com/scavengerisland",
+  // portfolio_repository: "https://github.com/scavengerisland/portfolio",
 };
 
 const socialMediaLinks = [
@@ -40,6 +39,7 @@ const socialMediaLinks = [
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/ethanhutchison/",
+    link: "https://www.linkedin.com/in/ethanhutchison/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -49,12 +49,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/scavengerisland/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/scavengerisland/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
