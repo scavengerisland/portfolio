@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ethan Hutchison",
+  title: "Ethan Hutchison | Senior Software Engineer & Product Developer",
   description:
-    "A mission-driven technologist passionate about creating solutions with real-world positive impact. Expertise in full-stack development, agile methodologies, and cross-functional collaboration with agricultural roots and startup experience.",
+    "Passionate technologist building mission-driven apps. 3+ years at FedEx, creator of LymeTrack health app and Genni B2B platform. Full-stack developer specializing in React Native, Next.js, and cloud solutions.",
   og: {
-    title: "Ethan Hutchison",
+    title: "Ethan Hutchison | Senior Software Engineer & Product Developer",
     type: "website",
     url: "https://ethanh.co",
   },
@@ -21,9 +21,9 @@ const seo = {
 const greeting = {
   title: "Ethan Hutchison",
   logo_name: "EthanHutchison",
-  nickname: "people. tech. coffee.",
+  nickname: "",
   subTitle:
-    "Creating technology with purpose | Mission-driven developer focused on real-world impact",
+    "Senior Software Engineer & Product Developer. Passionate technologist with 3+ years driving innovation at FedEx's $500M modernization initiative. Currently building LymeTrack - a health app helping chronic illness patients - and Genni, an AI-powered B2B lead generation platform. Experienced in full-stack development, cloud infrastructure, and bringing startup ideas to market.",
   resumeLink: "null",
   // portfolio_repository: "https://github.com/scavengerisland/portfolio",
 };
@@ -60,47 +60,21 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Core Technologies",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building & maintaining Java SpringBoot applications with high reliability",
-        "⚡ Frontend experience with multiple CMS platforms and React components",
-        "⚡ Development and refactoring for optimal cloud-based performance",
+        "⚡ Languages: Java, Python, TypeScript, JavaScript, Dart",
+        "⚡ Frameworks: Spring Boot, React Native, Next.js, Flutter, Angular",
+        "⚡ Cloud Platforms: AWS, Google Cloud, GitHub Actions, Jenkins",
+        "⚡ Databases & Realtime: SQL, NoSQL, Firebase, Convex",
+        "⚡ Tools: Git, Docker, Splunk, AppDynamics, PostHog, Sentry",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "SpringBoot",
-          fontAwesomeClassname: "bxl:spring-boot",
-          style: {
-            color: "green",
-          },
-        },
         {
           skillName: "Java",
           fontAwesomeClassname: "logos:java",
           style: {
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
+            color: "#f89820",
           },
         },
         {
@@ -111,17 +85,45 @@ const skills = {
           },
         },
         {
-          skillName: "JUnit5",
-          fontAwesomeClassname: "devicon:junit",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#339933",
+            color: "#3178C6",
           },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "logos:mysql",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            color: "#CB3837",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "Dart",
+          fontAwesomeClassname: "simple-icons:dart",
+          style: {
+            color: "#0175C2",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "bxl:spring-boot",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000000",
           },
         },
         {
@@ -132,23 +134,37 @@ const skills = {
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
           style: {
-            color: "#FFCA28",
+            color: "#DD0031",
           },
         },
       ],
     },
     {
-      title: "Cloud & DevOps",
+      title: "Cloud Modernization & Automation",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Implementing CI/CD pipelines with GitHub Actions and Jenkins",
-        "⚡ Experience with cloud platforms and modern infrastructure",
-        "⚡ Application monitoring, error analytics, and performance optimization",
+        "⚡ Led enterprise cloud migrations and modernization for FedEx's $500M savings initiative",
+        "⚡ Build CI/CD pipelines, shared config services, and resilient cloud infrastructure",
+        "⚡ Instrument platforms with observability tooling and automated testing at scale",
       ],
       softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Google Cloud",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: {
+            color: "#4285F4",
+          },
+        },
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:github",
@@ -164,17 +180,31 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#0089D6",
+            color: "#2496ED",
           },
         },
         {
-          skillName: "PCF",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#4285F4",
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "Stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
+          style: {
+            color: "#008CDD",
+          },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#3776AB",
           },
         },
         {
@@ -194,108 +224,63 @@ const skills = {
       ],
     },
     {
-      title: "Platforms & Tools",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Driving digital innovation with cutting-edge platforms",
-        "⚡ Experience with Agile methodologies and leading SCRUM ceremonies",
-        "⚡ Building technical roadmaps and implementation strategies",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GitHub",
-          fontAwesomeClassname: "simple-icons:github",
-          style: {
-            color: "black",
-          },
-        },
-        {
-          skillName: "Salesforce",
-          fontAwesomeClassname: "simple-icons:salesforce",
-          style: {
-            color: "#00A1E0",
-          },
-        },
-        {
-          skillName: "MacOS",
-          fontAwesomeClassname: "wpf:macos",
-          style: {
-            color: "gray",
-          },
-        },
-        {
-          skillName: "SquareSpace",
-          fontAwesomeClassname: "simple-icons:squarespace",
-          style: {
-            color: "blue",
-          },
-        },
-        {
-          skillName: "Shopify",
-          fontAwesomeClassname: "simple-icons:shopify",
-          style: {
-            color: "green",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "IntelliJ",
-          fontAwesomeClassname: "skill-icons:idea-light",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-      ],
-    },
-    {
-      title: "Interests & Expertise",
+      title: "Specialized Experience",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Agile Software Development Lifecycle (SDLC)",
-        "⚡ AI and Machine Learning integration in apps and analytics",
-        "⚡ Team leadership and strategic alignment",
-        "⚡ Agricultural technology and organic farming solutions",
+        "⚡ 3+ years of full-stack product development across enterprise and startup environments",
+        "⚡ Cloud migrations, modernization roadmaps, and AI-assisted automation for 50% faster refactoring",
+        "⚡ AI/ML integration, analytics, and personalized automation in health tech and SaaS products",
+        "⚡ Agile leadership and storytelling with quarterly updates to 400+ executive stakeholders",
+        "⚡ Startup strategy, product discovery, and go-to-market execution for mission-driven apps",
       ],
       softwareSkills: [
         {
-          skillName: "Agile Development",
+          skillName: "Agile Leadership",
           fontAwesomeClassname: "iconoir:agile",
           style: {
             color: "#4285F4",
           },
         },
         {
-          skillName: "AI",
+          skillName: "TensorFlow",
           fontAwesomeClassname: "simple-icons:tensorflow",
           style: {
-            color: "#FF9900",
+            color: "#FF6F00",
           },
         },
         {
-          skillName: "Data Architecture",
-          fontAwesomeClassname: "simple-icons:databricks",
+          skillName: "OpenAI",
+          fontAwesomeClassname: "simple-icons:openai",
           style: {
-            color: "#FF3621",
+            color: "#412991",
           },
         },
         {
-          skillName: "Leadership",
+          skillName: "Collaboration",
           fontAwesomeClassname: "carbon:collaboration",
           style: {
             color: "#336791",
           },
         },
         {
-          skillName: "Agriculture",
-          fontAwesomeClassname: "mdi:agriculture",
+          skillName: "Product Strategy",
+          fontAwesomeClassname: "mdi:lightbulb-on-outline",
           style: {
-            color: "#47A248",
+            color: "#FFB300",
+          },
+        },
+        {
+          skillName: "PostHog",
+          fontAwesomeClassname: "simple-icons:posthog",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Sentry",
+          fontAwesomeClassname: "simple-icons:sentry",
+          style: {
+            color: "#FB4226",
           },
         },
       ],
@@ -362,7 +347,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Startup Experience, and Community Involvement",
   description:
-    "My diverse background bridges technology and agriculture, from growing up on a Missouri farm to refactoring critical enterprise applications. I bring hands-on experience with farm equipment maintenance, technical problem-solving, and a passion for creating innovative solutions that make a real difference. My work reflects my commitment to mission-driven technology that creates positive impact.",
+    "Originally from Missouri farm country, I bring a unique blend of agricultural roots and cutting-edge technology expertise. My experience ranges from maintaining farm equipment to architecting cloud solutions for Fortune 500 companies, and I'm passionate about building technology that solves real problems for real people with a focus on health tech and mission-driven applications.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -370,14 +355,14 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Full Stack Software Developer II",
+          title: "Senior Software Engineer & Product Developer",
           company: "FedEx",
           company_url: "https://www.fedex.com/",
           logo_path: "fedex_logo.png",
           duration: "June 2021 - Present",
-          location: "Remote",
+          location: "Atlanta, GA (Remote)",
           description:
-            "Led GitHub Actions adoption from Jenkins, reducing deployment times by 40% and improving reliability for systems serving 7,000+ internal users daily. Collaborated on a $500M savings initiative through FedEx Freight mainframe retirement, migrating 13 critical business systems to modern cloud infrastructure with 99.9% uptime. Accelerated application refactoring efficiency by 50% by implementing AI-driven code analysis tools, establishing a modernization template adopted across 5 development teams. Reduced codebase by 68% in refactored applications using SpringBoot and MVC design patterns, while increasing test coverage to 80%. Delivered quarterly strategic alignment presentations to 400+ organizational stakeholders, effectively communicating technical roadmaps and team achievements. Created comprehensive technical documentation and implementation guides that reduced onboarding time for new team members by 30%.",
+            "Led migration of 15+ applications from Jenkins to GitHub Actions inside FedEx's $500M savings initiative, cutting deployment lead time by 40% for 7,000+ internal users. Spearheaded a Java 17 upgrade with OpenRewrite across critical systems and reduced refactored codebases by 68% while reaching 80% automated test coverage. Built a shared config server that decommissioned 90+ redundant instances and delivered quarterly modernization updates to 400+ stakeholders, increasing refactoring throughput 50% through AI-assisted tooling and comprehensive implementation playbooks.",
           color: "#4B2E83",
         },
         {
@@ -408,36 +393,36 @@ const experience = {
       title: "Startup & Project Experience",
       experiences: [
         {
-          title: "Lyme Tracker Mobile App",
-          company: "LightWorks Studio",
+          title: "LymeTrack - Health App for Chronic Illness Management",
+          company: "LymeTrack",
           company_url: "",
           logo_path: "lyme_app_logo.png",
           duration: "2024 - Present",
           location: "Atlanta, GA",
           description:
-            "Leading development of a mission-driven healthcare app helping Lyme disease patients track symptoms and improve treatment outcomes. Built on Flutter/Firebase with a focus on data privacy and user-centered design. Conducted user interviews with 25+ Lyme patients to identify critical pain points and feature priorities. Implemented AI-driven analytics to provide personalized insights and treatment suggestions, improving patient quality of life. Designed for scalability to support 10,000+ users in first year with 99.5% uptime target. Creating a solution with direct positive impact on a community with limited technological support.",
+            "React Native + Expo app with 200+ Jest tests delivering real-time health tracking on a Convex backend. Day-centric architecture designed to scale to 155K projected users while supporting the 300K+ annual Lyme cases across the US. Tech stack: React Native, TypeScript, Convex, Clerk, OneSignal, PostHog, Sentry.",
           color: "#000000",
         },
         {
-          title: "Technical Advisor",
-          company: "Social Media Startup",
+          title: "Genni - AI-Powered Lead Generation Platform",
+          company: "Genni",
           company_url: "",
           logo_path: "social_startup_logo.png",
-          duration: "2023 - Present",
+          duration: "2024 - Present",
           location: "Remote",
           description:
-            "Providing strategic technical guidance to an early-stage social media platform focused on community building. Advised on technology stack selection, scalability planning, and roadmap development. Helped implement privacy-by-design principles and ethical data practices. Demonstrated ability to translate complex technical concepts to non-technical founders, enabling informed business decisions.",
+            "Next.js 14 + TypeScript SaaS with a multi-service architecture orchestrating Python FastAPI workers. Integrates Apify, FindyMail, and OpenAI for automated outreach with launch planned for October 2025. Tech stack: Next.js 14, Convex Cloud, FastAPI, Stripe, Clerk.",
           color: "#4285F4",
         },
         {
-          title: "Co-Founder",
-          company: "Job Board Startup",
+          title: "Light Works Studio - Mission-Driven App Development",
+          company: "Light Works Studio",
           company_url: "",
           logo_path: "jobboard_logo.png",
-          duration: "2019 - 2020",
-          location: "College of the Ozarks",
+          duration: "2014 - Present",
+          location: "Atlanta, GA",
           description:
-            "Co-founded a niche job board connecting students with work opportunities during college. Built the initial MVP using modern web technologies and implemented automated job matching algorithms. Managed the rapid development cycles and adapted to changing market requirements in a high-pressure startup environment. Gained valuable experience in product development, user acquisition, and lean startup methodologies.",
+            "\"Driving technological innovations that make a positive impact on people's lives.\" Founder & Technical Lead delivering 13+ client websites across healthcare, professional services, manufacturing, and e-commerce with 10+ years of design and development experience. Focused on mission-driven health tech and productivity solutions. Client roster includes Branson CPA, Dr. Aaron Strickland DC, Aviation Enterprises, Ankerpak Manufacturing, and Local Flavor Branson.",
           color: "#FF3621",
         },
       ],
@@ -510,7 +495,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "ethan_profile.png",
     description:
-      "I'm particularly interested in connecting with mission-driven teams creating technology that makes a positive real-world impact. My passion lies at the intersection of innovation and purpose, especially in areas like agricultural technology, healthcare solutions, and sustainable systems. Feel free to reach out via LinkedIn or email to discuss how I might contribute to your team's mission.",
+      "Based in Atlanta, GA, I'm focused on health technology, mission-driven applications, enterprise modernization, and AI-enabled full-stack solutions. If you're shipping products that improve people's lives—from health tech and B2B SaaS to modernization initiatives—I'd love to connect.",
   },
   blogSection: {
     title: "Blogs",
@@ -531,8 +516,9 @@ const contactPageData = {
     location_map_link: "https://goo.gl/maps/ZQd2hyZmLzrN7yJZ7",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Focus Areas",
+    subtitle:
+      "Health technology & mission-driven applications • Enterprise modernization & cloud solutions • Full-stack development & AI integration",
   },
 };
 
