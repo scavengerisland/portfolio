@@ -50,6 +50,14 @@
   font-family: "Google Sans Medium";
 }
 
+.greeting-text-bio {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-right: 40px;
+  font-family: "Google Sans", "Google Sans Medium", sans-serif;
+}
+
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
@@ -62,6 +70,10 @@
   }
   .greeting-text-p {
     font-size: 20px;
+  }
+  .greeting-text-bio {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 @media (max-width: 768px) {
@@ -81,6 +93,12 @@
     font-size: 16px;
     margin-right: 0px;
     line-height: normal;
+    text-align: center;
+  }
+  .greeting-text-bio {
+    font-size: 14px;
+    margin-right: 0px;
+    line-height: 22px;
     text-align: center;
   }
   .greeting-main {
