@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Ethan Hutchison",
   logo_name: "EthanHutchison",
-  nickname: "people. tech. coffee.",
+  nickname: "",
   subTitle:
     "Creating technology with purpose | Mission-driven developer focused on real-world impact",
   description:
