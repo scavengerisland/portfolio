@@ -23,7 +23,9 @@ const greeting = {
   logo_name: "EthanHutchison",
   nickname: "",
   subTitle:
-    "Senior Software Engineer & Product Developer. Passionate technologist with 3+ years driving innovation at FedEx's $500M modernization initiative. Currently building LymeTrack - a health app helping chronic illness patients - and Genni, an AI-powered B2B lead generation platform. Experienced in full-stack development, cloud infrastructure, and bringing startup ideas to market.",
+    "Creating technology with purpose | Mission-driven developer focused on real-world impact",
+  description:
+    "Passionate technologist with 3+ years driving innovation at FedEx's $500M modernization initiative. Led migrations of 15+ applications from Jenkins to GitHub Actions, spearheaded the Java 17 upgrade across critical systems, and built shared configuration services that retired 90+ redundant instances while driving 80% automated test coverage on critical dock applications. Currently building LymeTrack to support chronic illness patients and Genni, an AI-powered B2B lead generation platform launching in 2025, while staying focused on health tech, AI integration, and mission-driven products.",
   resumeLink: "null",
   // portfolio_repository: "https://github.com/scavengerisland/portfolio",
 };
