@@ -1,0 +1,1450 @@
+{
+  "personal_information": {
+    "name": "Ethan Hutchison",
+    "age": 24,
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
+    "contact": {
+      "phone": "417-429-3356",
+      "email": "ethan.hutchison@icloud.com",
+      "linkedin": "linkedin.com/in/ethanhutchison",
+      "website": "ethanh.co"
+    }
+  },
+  
+  "professional_summary": {
+    "title": "Full Stack Software Developer II",
+    "years_of_experience": "3+ years in technology solutions",
+    "specializations": [
+      "Agile transformations",
+      "Cross-functional collaboration",
+      "Cloud infrastructure",
+      "DevOps and CI/CD",
+      "Full-stack development",
+      "Debugging",
+      "Testing",
+      "Monitoring",
+      "Coding"
+    ],
+    "soft_skills": [
+      "Connecting with people",
+      "Stakeholder engagement",
+      "Client needs assessment",
+      "Interpersonal Communication",
+      "Leadership",
+      "Team guidance",
+      "Team collaboration",
+      "Writing",
+      "Technical Knowledge",
+      "Innovation",
+      "Process improvements",
+      "Onboarding new employees",
+      "Supporting applications",
+      "Value Propositions",
+      "Roadmaps",
+      "System Development",
+      "Engineering Documentation",
+      "Reliability"
+    ],
+    "tools_platforms": [
+      "Salesforce",
+      "Figma",
+      "FlutterFlow",
+      "Cursor AI",
+      "Clerk",
+      "Stripe",
+      "OneSignal",
+      "OpenAI APIs"
+    ]
+  },
+
+  "personal_background": {
+    "upbringing": {
+      "location": "Missouri farm",
+      "experience": "Grew up on a farm with hands-on agriculture experience",
+      "agricultural_skills": [
+        "Years of hands-on experience with tractors",
+        "Farm implements maintenance and repair",
+        "Understanding of agricultural operations",
+        "Passion for organic food and farming practices"
+      ]
+    },
+    "driving_experience": {
+      "commercial": "26' box truck (full-time between high school and college)",
+      "personal_vehicles": [
+        {
+          "vehicle": "2019 Toyota 4Runner TRD Off-Road Premium",
+          "status": "Current"
+        },
+        {
+          "vehicle": "2007 4Runner Limited",
+          "status": "Previous"
+        },
+        {
+          "vehicle": "2000 4Runner Limited",
+          "status": "Previous"
+        }
+      ],
+      "interests": "Considering older, less expensive vehicle options; interested in compact SUVs"
+    },
+    "aviation_interest": {
+      "interest": "6-seat private planes",
+      "focus": ["Good value options", "Speed"]
+    }
+  },
+
+  "hobbies_interests": {
+    "fitness": {
+      "activities": ["Treadmill workouts", "HIIT", "Skiing"]
+    },
+    "outdoor_activities": [
+      "Skiing",
+      "Off-roading",
+      "Exploring Atlanta"
+    ],
+    "technology_interests": [
+      "Drone technology and operation",
+      "Radio technology and communication systems",
+      "Self-hosting services",
+      "AI chat programs and GGUF models",
+      "Personal projects and experimentation"
+    ],
+    "professional_interests": [
+      "Mission-driven work and social impact projects",
+      "Organic farming and sustainable agriculture",
+      "Health technology and patient care solutions"
+    ]
+  },
+
+  "volunteering_leadership": {
+    "current": [
+      {
+        "organization": "SafeHouse",
+        "role": "Volunteer",
+        "location": "Atlanta, GA"
+      }
+    ]
+  },
+
+  "career_aspirations": {
+    "current_exploration": {
+      "transition_goal": "Looking to transition into IT",
+      "preferences": [
+        "On-the-ground roles (like datacenters)",
+        "Roles that pay well and suit skills",
+        "Developer Relations",
+        "Field Engineering roles"
+      ]
+    },
+    "job_applications": {
+      "carbon_robotics": {
+        "position": "Field Robotics Engineer",
+        "fit_factors": [
+          "Grew up on farm in Missouri with agriculture experience",
+          "Excellent people skills",
+          "Strong understanding of electrical and mechanical systems",
+          "FedEx role provided ability to manage multiple projects",
+          "Solve array of technical, personnel, and customer problems",
+          "Experience driving large trucks and trailers (26' box truck)",
+          "Part of 2 startups - understands startup culture",
+          "Passionate about organic food and farming practices",
+          "Skilled at explaining technical concepts to wide range of audiences",
+          "Reputation for driving innovation",
+          "Excellent troubleshooter",
+          "Lives in Atlanta - perfect for South East section",
+          "Years of hands-on experience with tractors and farm implements",
+          "Trained and onboarded new team members",
+          "Created documentation and team training guides"
+        ]
+      },
+      "sei": {
+        "position": "AI and Technology Consultant",
+        "cover_letter_themes": [
+          "Active listening",
+          "Genuine personal connection",
+          "Competent problem-solving",
+          "Technical expertise in cloud transformations, DevOps, software engineering",
+          "Leading Agile ceremonies",
+          "Implementing best practices",
+          "Passionate about solving problems with real-world impacts",
+          "Collaborative mindset",
+          "Innovative work approach"
+        ]
+      },
+      "salesforce": {
+        "position": "Data Cloud Solution Engineer",
+        "relevant_experience": [
+          "3+ years in technology solutions",
+          "Agile transformations",
+          "Cross-functional collaboration",
+          "Data Architecture",
+          "Client needs assessment",
+          "Technical knowledge",
+          "Writing"
+        ],
+        "note": "Removed - no direct Salesforce experience"
+      },
+      "macstadium": {
+        "position": "Developer Relations Professional",
+        "location": "Atlanta, GA (preferred)",
+        "fit_factors": [
+          "Located in Atlanta",
+          "Strong technical writing skills",
+          "Content creation experience (web portfolio, documentation)",
+          "Developer community engagement",
+          "Public speaking and presentation experience",
+          "Technical documentation creation",
+          "Blog post writing experience",
+          "Tutorial creation",
+          "Passion for engaging with developers",
+          "Understanding developer challenges",
+          "Advocacy skills"
+        ],
+        "relevant_skills": [
+          "1-5 years development experience (3+ years)",
+          "Technical writing and documentation",
+          "Community engagement",
+          "DevOps tooling (CI/CD, GitHub Actions, Jenkins)",
+          "Cloud platforms understanding",
+          "Video content capability",
+          "Webinar presentation"
+        ]
+      }
+    }
+  },
+
+  "writing_samples": {
+    "sei_cover_letter": {
+      "themes": [
+        "SEI culture alignment (active listening, genuine connection, problem-solving)",
+        "Technical experience breadth (cloud, DevOps, software engineering)",
+        "Leadership (Agile ceremonies, best practices)",
+        "Innovation (Jenkins to GitHub Actions - first in organization)",
+        "Real-world impact focus",
+        "Collaborative mindset"
+      ],
+      "tone": "Professional, values-driven, confident"
+    }
+  },
+
+  "home_preferences": {
+    "bedding_project": {
+      "requirements": [
+        "High-quality but price-conscious",
+        "Egyptian/Supima cotton or linen sheets",
+        "100% natural fiber-fill lightweight duvet",
+        "Cotton duvet cover with no polyester",
+        "Four down pillows to match duvet"
+      ]
+    },
+    "living_space": {
+      "size": "550 sq ft apartment",
+      "organization_needs": "Physical visibility for reminders due to ADD"
+    }
+  },
+
+  "project_management_interests": {
+    "app_development_needs": [
+      "Free or cheap development platform",
+      "Roadmaps",
+      "Kanban boards",
+      "User feedback tools"
+    ]
+  },
+
+  "notable_accomplishments_summary": {
+    "technical_innovation": [
+      "Led AI adoption on development team - pioneered AI tools for developer productivity",
+      "First in FedEx organization to migrate from Jenkins to GitHub Actions (~15 applications)",
+      "Led Java 8 to Java 17 migration effort using OpenRewrite (whitepaper in progress)",
+      "Created GitSync tool enabling enterprise repository migration for FedEx Freight corporate spin-off",
+      "Implemented AI-driven code analysis tools (50% efficiency gain)",
+      "Created shared config server (decommissioned 90+ redundant instances)",
+      "Rebuilt team documentation site with GitHub Pages deployment",
+      "Archived 40+ obsolete repos",
+      "Reduced codebase by 68% in refactored applications",
+      "Increased code test coverage to 80%"
+    ],
+    "leadership_communication": [
+      "Delivered quarterly presentations to 400+ stakeholders",
+      "Led strategic alignment sessions between dev and UI/UX teams",
+      "Led communication for HU Manual Move handoff",
+      "Trained and onboarded new team members",
+      "Created documentation and team training guides",
+      "Rebuilt team documentation cookbook with GitHub Pages POC"
+    ],
+    "business_impact": [
+      "$500M savings initiative participation (mainframe retirement)",
+      "Maintained 13 critical Java SpringBoot applications",
+      "Real-time analytics dashboards for error detection",
+      "Enhanced team collaboration and remote co-working",
+      "Orchestrated cross-functional discovery sessions",
+      "Improved customer satisfaction across critical applications"
+    ],
+    "entrepreneurial": [
+      "10+ years web development (13+ websites)",
+      "Building health-tech app with $1.4M ARR projection",
+      "Migrating React Native app from FlutterFlow (200+ tests)",
+      "Developing B2B SaaS (Genni) launching October 2025",
+      "Created enterprise Git repository migration tool for FedEx Freight corporate separation",
+      "Technical advisor to startups",
+      "Part of 2 startup teams"
+    ],
+    "security_consulting": [
+      "Recovered completely compromised AWS environment",
+      "Prevented cryptocurrency mining financial losses",
+      "Comprehensive security audit and remediation",
+      "IT infrastructure consolidation (25+ email accounts)",
+      "Enterprise-grade security deployment proposal",
+      "Disaster recovery planning"
+    ]
+  },
+
+  "professional_traits": {
+    "technical_strengths": [
+      "Full-stack development expertise",
+      "Cloud architecture and migration",
+      "DevOps and CI/CD mastery",
+      "AI integration and innovation",
+      "Security incident response",
+      "System architecture design",
+      "Database design and optimization",
+      "Real-time systems development"
+    ],
+    "leadership_qualities": [
+      "Cross-functional team leadership",
+      "Stakeholder communication",
+      "Agile ceremony facilitation",
+      "Technical mentorship",
+      "Documentation and knowledge sharing",
+      "Strategic planning and execution",
+      "Change management"
+    ],
+    "problem_solving": [
+      "Complex system troubleshooting",
+      "Multi-vector security incident resolution",
+      "Legacy system modernization",
+      "Process optimization",
+      "Innovation under constraints",
+      "Customer-centric solutions"
+    ],
+    "business_acumen": [
+      "Startup experience and culture understanding",
+      "Product marketing strategy",
+      "Voice of customer analysis",
+      "Market research",
+      "Revenue modeling",
+      "SaaS business model design",
+      "Client relationship management"
+    ]
+  },
+
+  "unique_value_propositions": {
+    "technical_breadth": "Full-stack developer with enterprise experience, startup founding, consulting, and 10+ years web development",
+    "innovation_track_record": "First-in-organization adopter of modern practices, AI-driven solutions, 50% efficiency gains",
+    "communication_skills": "Presents to 400+ stakeholders, explains complex technical concepts to diverse audiences, strong writing",
+    "agricultural_technical_hybrid": "Unique combination of farm/mechanical background with modern software engineering, drone and radio technology experience",
+    "mission_driven": "Passionate about real-world impact, organic farming, health-tech, mission-fit work, and helping people",
+    "versatility": "Manages multiple complex projects, solves technical/personnel/customer problems, adapts to startup culture",
+    "security_expertise": "Proven ability to handle critical security incidents and enterprise infrastructure",
+    "entrepreneurial_mindset": "Founded multiple products, technical advisor role, understands product-market fit and growth"
+  },
+
+  "career_narrative": {
+    "origin_story": "Grew up on Missouri farm, developed mechanical and agricultural expertise, pursued computer science education while gaining diverse work experience",
+    "professional_evolution": "Started as intern, progressed to Full Stack Developer II at FedEx, led major technical initiatives, simultaneously building entrepreneurial ventures with mission-driven focus",
+    "current_focus": "Balancing enterprise software engineering with founding health-tech and B2B SaaS products, exploring transition to IT/Developer Relations roles that leverage unique blend of technical, communication, and agricultural/mechanical skills. Strong emphasis on mission-fit work where personal passion aligns with organizational purpose.",
+    "future_direction": "Seeking roles that combine technical expertise with people interaction, mission-driven work, and real-world impact - whether in developer relations, field engineering, or continuing entrepreneurial path in areas like organic farming technology, health-tech, or social impact solutions"
+  },
+
+  "competitive_advantages": {
+    "technical_innovation": "Demonstrated history of being first-adopter and driving organizational change",
+    "cross_domain_expertise": "Rare combination of agriculture, mechanical, software engineering, security, and entrepreneurship",
+    "proven_builder": "Successfully architected and built production applications from scratch across multiple tech stacks",
+    "stakeholder_management": "Experience presenting to and aligning large organizational stakeholders",
+    "startup_readiness": "Understands startup culture, mission-fit importance, adaptability, and wearing multiple hats",
+    "teaching_ability": "Experience as teaching assistant, creating training materials, onboarding teams",
+    "client_retention": "10+ years web development with ongoing maintenance relationships",
+    "crisis_management": "Proven ability to handle high-stakes security incidents and critical system recoveries"
+  },
+
+  "metadata": {
+    "document_created": "2025",
+    "data_sources": [
+      "Resume versions (Salesforce, Carbon Robotics, Field Engineer)",
+      "Cover letter sample (SEI)",
+      "Personal background document",
+      "Skills list",
+      "LymeTrack project summary",
+      "Genni project summary",
+      "Web development portfolio",
+      "TalkingBibles consulting summary",
+      "GitSync tool documentation",
+      "Major accomplishments list",
+      "Job application contexts"
+    ],
+    "completeness": "Comprehensive professional and personal profile",
+    "last_updated": "October 2025"
+  }
+}
+      "AI-driven solutions"
+    ],
+    "core_strengths": [
+      "Drive innovation",
+      "Streamline processes",
+      "Deliver technical solutions that meet customer needs",
+      "Solve complex challenges",
+      "Mission-driven team contribution"
+    ]
+  },
+
+  "education": {
+    "degree": "Bachelor of Science in Computer Information Science",
+    "institution": "College of the Ozarks",
+    "location": "Point Lookout, MO",
+    "period": "08/2018 - 05/2022",
+    "awards": [
+      {
+        "title": "Leader in Society",
+        "organization": "Keeter Center for Character Education",
+        "date": "05/2022"
+      },
+      {
+        "title": "Associates Work Award",
+        "organization": "College of the Ozarks",
+        "date": "05/2021"
+      }
+    ]
+  },
+
+  "work_experience": {
+    "current_position": {
+      "company": "FedEx",
+      "location": "Remote",
+      "period": "06/2021 - Present",
+      "titles": [
+        {
+          "title": "Full Stack Software Developer II",
+          "current": true
+        },
+        {
+          "title": "Full Stack Software Developer I",
+          "current": false
+        },
+        {
+          "title": "Software Development Internship",
+          "type": "Internship",
+          "current": false
+        }
+      ],
+      
+      "top_accomplishments_fedex": [
+        {
+          "accomplishment": "Led AI adoption on team for developer use",
+          "context": "Pioneered use of AI tools for development team",
+          "impact": "Transformed team development practices and productivity",
+          "scope": "Team-wide initiative",
+          "timeline": "2024-Present"
+        },
+        {
+          "accomplishment": "Led effort to convert all applications from Jenkins CICD to GitHub Actions CICD",
+          "context": "First in FedEx organization to modernize CI/CD pipeline strategy",
+          "impact": "Improved deployment reliability, customer success, and developer experience",
+          "metrics": "~15 applications successfully migrated",
+          "timeline": "2024-2025"
+        },
+        {
+          "accomplishment": "Led migration effort from Java 8 to Java 17",
+          "context": "Upgraded Equipment Service using OpenRewrite",
+          "impact": "Paved the way for quick Java version upgrades across organization",
+          "technical_approach": "OpenRewrite automation",
+          "status": "Whitepaper in progress documenting methodology",
+          "timeline": "2024"
+        },
+        {
+          "accomplishment": "Rebuilt team documentation site",
+          "context": "Complete overhaul of team documentation cookbook",
+          "impact": "Updated contents and worked with CICD team to POC GitHub Pages deployments",
+          "scope": "Team-wide knowledge management improvement",
+          "timeline": "2024"
+        },
+        {
+          "accomplishment": "Created GitSync tool for FedEx Freight separation",
+          "context": "FedEx Freight spin-off initiative - transitioning Freight into its own company",
+          "impact": "Enabled batch Git repository migration between organizations for corporate separation",
+          "technical_solution": "PowerShell-based automation tool for safe, repeatable repository migrations",
+          "scope": "Enterprise-level migration tool supporting organizational restructuring",
+          "timeline": "September 2025",
+          "business_criticality": "Critical infrastructure for multi-billion dollar corporate separation"
+        }
+      ],
+
+      "major_accomplishments_2024_2025": [
+        {
+          "accomplishment": "Led AI adoption on team for developer use",
+          "impact": "Transformed team development practices and productivity"
+        },
+        {
+          "accomplishment": "Spearheaded conversion of ~15 Applications from Jenkins to GitHub Actions",
+          "impact": "Improved deployment reliability and customer success - first in organization"
+        },
+        {
+          "accomplishment": "Led Java 8 to Java 17 migration using OpenRewrite",
+          "impact": "Paved the way for quick Java version upgrades",
+          "status": "Whitepaper in progress"
+        },
+        {
+          "accomplishment": "Rebuilt team documentation site",
+          "impact": "Updated contents and POC'd GitHub Pages deployments with CICD team"
+        },
+        {
+          "accomplishment": "Created GitSync tool for FedEx Freight separation",
+          "impact": "Enabled enterprise repository migration for corporate spin-off",
+          "timeline": "September 2025"
+        },
+        {
+          "accomplishment": "Created shared config server for team",
+          "impact": "Decommissioned 90+ redundant instances of config servers"
+        },
+        {
+          "accomplishment": "Archived 40+ repos that are no longer needed",
+          "impact": "Improved repository management and clarity"
+        },
+        {
+          "accomplishment": "Contributed to HU Movement Pilot efforts with HU Manual move",
+          "impact": "Supported organizational transformation"
+        },
+        {
+          "accomplishment": "Led communication for HU Manual Move handoff from Edge team to GitWrecked",
+          "impact": "Ensured smooth team transition"
+        },
+        {
+          "accomplishment": "Completed management exploration coursework",
+          "impact": "Professional development for leadership trajectory"
+        }
+      ],
+      "key_achievements": [
+        {
+          "achievement": "Led adoption of GitHub Actions from Jenkins",
+          "context": "First in organization to modernize software deployment strategy",
+          "impact": "Improved deployment reliability and customer success - completed proof of concept for future conversions",
+          "metrics": "~15 applications migrated"
+        },
+        {
+          "achievement": "$500M savings initiative participation",
+          "context": "FedEx Freight mainframe retirement",
+          "impact": "Assisted in migration of critical business systems to modern cloud infrastructure",
+          "technical_details": "Migrated legacy systems to cloud-based solutions"
+        },
+        {
+          "achievement": "Migrated applications from private cloud to co-located cloud infrastructure",
+          "context": "Infrastructure modernization initiative",
+          "impact": "Enhanced reliability and performance of critical applications"
+        },
+        {
+          "achievement": "Accelerated application refactoring efficiency by 50%",
+          "context": "Implemented AI-driven code analysis tools",
+          "impact": "Established modernization template adopted across development teams"
+        },
+        {
+          "achievement": "Led strategic alignment sessions",
+          "context": "Between development and UI/UX teams",
+          "impact": "Prioritized product features based on customer voice"
+        },
+        {
+          "achievement": "Delivered quarterly strategic presentations",
+          "audience": "400+ organizational stakeholders",
+          "impact": "Communicated technical roadmaps and team achievements to align organization"
+        },
+        {
+          "achievement": "Maintained 13 critical Java SpringBoot applications",
+          "responsibilities": [
+            "Applied security upgrades",
+            "Troubleshot production issues",
+            "Minimized downtime"
+          ]
+        },
+        {
+          "achievement": "Refactored applications from WebLogic to Spring Boot",
+          "scope": "Three critical dock applications total",
+          "metrics": {
+            "code_coverage": "Increased to 80%",
+            "codebase_reduction": "68% reduction using SpringBoot and MVC design in Java",
+            "deployment": "Deployed to modern cloud infrastructure"
+          }
+        },
+        {
+          "achievement": "Implemented real-time analytics dashboards",
+          "technology": "AI and machine learning",
+          "impact": "Automated error detection and provided partners with immediate visibility into customer impact metrics"
+        },
+        {
+          "achievement": "Implemented agile practices",
+          "responsibilities": "Led team retrospectives, stand-ups, and created user stories",
+          "impact": "Enhanced team velocity and customer satisfaction across critical applications"
+        },
+        {
+          "achievement": "Created technical guides and implementation programs",
+          "impact": "Established standardized messaging and guidance across product lifecycle"
+        },
+        {
+          "achievement": "Enhanced team collaboration",
+          "method": "Delivered compelling presentation on hands-on collaboration tool",
+          "impact": "Led to more cohesive approach to remote co-working"
+        },
+        {
+          "achievement": "Led Agile ceremonies for team",
+          "responsibilities": "Set up systems to implement and maintain best practices"
+        }
+      ],
+      "technical_environment": {
+        "languages": ["Java", "Python", "JavaScript", "TypeScript"],
+        "frameworks": ["SpringBoot", "Angular", "React Native"],
+        "cloud_platforms": ["AWS", "Cloud infrastructure"],
+        "devops_tools": ["Jenkins", "GitHub Actions", "CI/CD pipelines"],
+        "databases": ["SQL", "No-SQL"],
+        "monitoring": ["AppDynamics", "Splunk"],
+        "application_servers": ["WebLogic"],
+        "methodologies": ["Agile", "SCRUM"],
+        "version_control": ["Git", "GitHub"]
+      }
+    },
+    "previous_positions": [
+      {
+        "company": "College of the Ozarks",
+        "title": "Computer Science Department Teaching Assistant",
+        "type": "Teaching",
+        "period": "01/2020 - 12/2020",
+        "achievements": [
+          "Demonstrated strong communication skills by presenting complex technical concepts to diverse audiences"
+        ]
+      },
+      {
+        "company": "Kanakuk Kamps",
+        "location": "Branson, MO",
+        "title": "Information Technology Intern",
+        "type": "Internship",
+        "period": "05/2020 - 08/2020",
+        "achievements": [
+          "Delivered impactful support to dozens of end users",
+          "Leveraged expertise in Windows and MacOS technologies",
+          "Utilized Ubiquiti and Cisco network solutions to optimize performance"
+        ]
+      }
+    ]
+  },
+
+  "consulting_projects": {
+    "talking_bibles_international": {
+      "role": "Senior IT Security Consultant & Systems Administrator",
+      "status": "Ongoing Engagement",
+      "organization_details": {
+        "type": "Non-profit biblical content distribution",
+        "staff_size": 12,
+        "annual_budget": "$2M"
+      },
+      "emergency_security_response": {
+        "incident_type": "Complete AWS account compromise",
+        "actions_taken": [
+          "Recovered compromised AWS root account access after complete credential exposure",
+          "Identified and investigated suspected cryptocurrency mining operations in 3 AWS Lightsail instances",
+          "Disabled all compromised IAM user accounts (5-10 users)",
+          "Implemented emergency access controls",
+          "Conducted comprehensive security audit revealing multi-vector attack",
+          "Found exposed GitLab credentials and compromised remote access accounts"
+        ],
+        "business_impact": "Prevented ongoing financial losses from unauthorized cryptocurrency mining"
+      },
+      "infrastructure_restoration": [
+        "Leading restoration of mission-critical audio Bible listener web application",
+        "Remediating security vulnerabilities in compromised web application",
+        "Restoring secure S3 access for operational staff",
+        "Implementing emergency cost controls and monitoring"
+      ],
+      "it_environment_consolidation": {
+        "email_management": "Managing consolidation of 25+ email accounts across Gmail, Microsoft, SBCGlobal, and organizational domains",
+        "domain_management": "Coordinating across multiple registrars (NameCheap, AWS Route53, Epik.com)",
+        "security_infrastructure": "Addressing expired Norton 360 (expired Feb 2021) across all endpoints",
+        "legacy_systems": "Securing exposed SBCGlobal IMAP/SMTP configurations and remote access accounts"
+      },
+      "comprehensive_proposal": {
+        "program_duration": "3-month emergency stabilization",
+        "components": [
+          "Structured recovery phases",
+          "Enterprise-grade security deployment",
+          "Centralized password management",
+          "24/7 monitoring",
+          "Sustainable IT administration model with SLA commitments",
+          "Disaster recovery planning",
+          "Staff training programs"
+        ]
+      },
+      "technical_environment": {
+        "cloud": "AWS (EC2, Lightsail, S3, Route53, IAM)",
+        "development": "GitLab repositories, WordPress/Envato themes",
+        "financial": "QuickBooks (desktop + online), CardPointe payment processing",
+        "creative": "Adobe Creative Cloud (2 licenses), YouTube channel management",
+        "communications": "25+ email accounts, Zoom integration, multiple domain management",
+        "security": "Remote access systems (LogMeIn, Splashtop), backup solutions (Carbonite)"
+      },
+      "key_accomplishments": [
+        "Successfully recovered access to completely compromised AWS environment",
+        "Identified and documented complex multi-vector security incident",
+        "Developed comprehensive recovery plan balancing immediate security with long-term stability",
+        "Established professional service delivery model with clear SLAs",
+        "Positioned organization for sustainable growth with proper IT foundation"
+      ]
+    }
+  },
+
+  "fedex_special_projects": {
+    "git_sync_tool": {
+      "date": "September 2025",
+      "project_name": "GitSync - Batch Git Repository Migration Tool",
+      "context": "FedEx Freight Corporate Separation",
+      "business_context": {
+        "initiative": "FedEx Freight spin-off into independent company",
+        "start_date": "September 2025",
+        "scale": "Multi-billion dollar corporate separation",
+        "criticality": "Mission-critical infrastructure for organizational split"
+      },
+      "type": "PowerShell-based automation tool",
+      "role": "Lead Developer and Architect",
+      
+      "purpose": "Enable safe, repeatable batch migration of Git repositories between FedEx organizations to support corporate separation",
+
+      "capabilities": [
+        "Reading repository mappings from CSV file",
+        "Calling core migration script for each repository",
+        "Tracking success/failure for each migration",
+        "Providing summary report at completion",
+        "Safe reruns to re-sync (mirror) changes from source to destination",
+        "Interactive selection for Dry Run vs actual Migration"
+      ],
+
+      "mirror_behavior": [
+        "Matching branches and tags in destination are overwritten by source",
+        "Destination-only branches (e.g., freight-cicd) are preserved",
+        "Unique branch names prevent overwriting destination-only work"
+      ],
+
+      "technical_components": {
+        "orchestration_script": "MigrateBatchRepos.ps1",
+        "core_migration_script": "MigrateGitRepo.ps1",
+        "configuration": "repos.csv",
+        "authentication": "token.txt (PAT)"
+      },
+
+      "features": [
+        "Interactive mode selection (Dry Run vs Migration)",
+        "CSV format flexibility (tab or comma delimited)",
+        "Automatic header detection with fallback synonyms",
+        "Per-repository timeout configuration",
+        "Wiki migration support",
+        "Git LFS object migration",
+        "Real-time progress tracking",
+        "Comprehensive error handling"
+      ],
+
+      "migration_process": [
+        "Full repository content mirror (branches, tags, history)",
+        "Wiki migration (optional)",
+        "Git LFS object migration (optional)",
+        "Branch and tag preservation",
+        "Commit history preservation"
+      ],
+
+      "business_impact": "Enabled large-scale repository migration for FedEx Freight organizational separation with safe, repeatable, and auditable process supporting multi-billion dollar corporate spin-off"
+    }
+  },
+
+  "entrepreneurial_projects": {
+    "lyme_track": {
+      "status": "Active Development - Scheduled for 2025 release",
+      "role": "Founder & Solo Developer",
+      "company": "Light Works Studio",
+      "tagline": "Driving technological innovations that make a positive impact on people's lives",
+      
+      "product_overview": {
+        "type": "Health tracking mobile application",
+        "target_market": "Lyme disease patients",
+        "purpose": "Monitor daily health journey through symptoms, treatments, and environmental factors"
+      },
+
+      "core_features": [
+        {
+          "feature": "Daily Health Check-ins",
+          "details": "4-step flow tracking symptoms (1-5 severity), treatments (completion status), and environmental factors (positive/negative impact)"
+        },
+        {
+          "feature": "Health Scoring",
+          "details": "Complex algorithms calculating overall feeling scores, treatment adherence percentages, and daily health aggregates"
+        },
+        {
+          "feature": "Streak Tracking",
+          "details": "Daily check-in streaks with 16-36 hour windows to accommodate chronic illness flexibility"
+        },
+        {
+          "feature": "Advanced Analytics",
+          "details": "Trend analysis, correlations between weather/symptoms/treatments, and pattern recognition"
+        },
+        {
+          "feature": "Treatment Management",
+          "details": "Unified system for medication reminders, dosage tracking, and adherence monitoring"
+        },
+        {
+          "feature": "Data Visualization",
+          "details": "Charts showing symptom trends, feeling scores over time, and treatment effectiveness"
+        },
+        {
+          "feature": "Provider Sharing",
+          "details": "Export capabilities for doctor visits and healthcare coordination"
+        },
+        {
+          "feature": "Onboarding, dashboard, check-ins",
+          "details": "Complete user journey with understanding, action, and profile features"
+        },
+        {
+          "feature": "Check-in streaks, wellness scores",
+          "details": "Gamification and health metrics"
+        },
+        {
+          "feature": "Symptom tracking, journaling",
+          "details": "Comprehensive health monitoring"
+        },
+        {
+          "feature": "AI-driven SMART goals",
+          "details": "Intelligent goal setting and tracking"
+        },
+        {
+          "feature": "Compass page",
+          "details": "Recommendations, medication tracking, and AI chatbot"
+        }
+      ],
+
+      "unique_value_propositions": [
+        "Chronic Illness Awareness: Understands unpredictable nature of Lyme symptoms",
+        "Environmental Correlation: Tracks weather, barometric pressure, and Lyme-specific triggers",
+        "Multiple Check-ins: Supports fluctuating symptoms throughout the day",
+        "Long-term Pattern Recognition: Identifies subtle trends over weeks/months"
+      ],
+
+      "tech_stack_migration": {
+        "previous": {
+          "platform": "FlutterFlow",
+          "backend": "Buildship",
+          "language": "Dart",
+          "limitations": [
+            "Platform limitations",
+            "Vendor lock-in",
+            "Limited customization",
+            "Smaller developer pool"
+          ]
+        },
+        "current": {
+          "frontend": "React Native 0.79.3 with Expo ~53.0.11",
+          "language": "TypeScript with strict mode",
+          "navigation": "React Navigation v7 (Stack + Bottom Tabs)",
+          "charts": "react-native-gifted-charts",
+          "state_management": "React Context + AsyncStorage",
+          "error_tracking": "Sentry",
+          "analytics": "PostHog",
+          "notifications": "OneSignal",
+          "backend": "Convex (serverless with real-time sync)",
+          "authentication": "Clerk",
+          "database": "Convex (day-centric data model)",
+          "benefits": [
+            "Full code control",
+            "AI-assisted development (Cursor AI)",
+            "Scalable architecture",
+            "10x larger talent pool",
+            "Better tooling ecosystem",
+            "TypeScript type safety"
+          ]
+        },
+        "migration_rationale": "Moved from FlutterFlow to React Native for better control, AI development support, and access to larger developer ecosystem"
+      },
+
+      "architecture_decisions": [
+        "Day-Centric Data Model: Each day has single HealthDay record aggregating all health data",
+        "Real-time Sync: Convex provides instant synchronization across devices",
+        "Offline-First: AsyncStorage fallback with automatic sync when online",
+        "Unified Treatment State: Shared treatment status between FAB quick actions and check-in flow"
+      ],
+
+      "development_tools": {
+        "design": "Figma",
+        "platform": "FlutterFlow with custom widgets integration",
+        "ai_assistance": "Cursor AI for development"
+      },
+
+      "testing": {
+        "framework": "Jest",
+        "coverage": "200+ tests covering backend functions"
+      },
+
+      "market_opportunity": {
+        "annual_lyme_cases_us": "300,000+",
+        "addressable_users": "50,000-100,000 active health trackers",
+        "business_model": "Freemium with premium subscriptions"
+      },
+
+      "revenue_projections_5_year": [
+        {
+          "year": 2025,
+          "users": 7500,
+          "arr": "$42,000"
+        },
+        {
+          "year": 2026,
+          "users": 32000,
+          "arr": "$197,000"
+        },
+        {
+          "year": 2027,
+          "users": 72000,
+          "arr": "$519,000"
+        },
+        {
+          "year": 2028,
+          "users": 115000,
+          "arr": "$927,000"
+        },
+        {
+          "year": 2029,
+          "users": 155000,
+          "arr": "$1,400,000"
+        }
+      ],
+
+      "subscription_strategy": {
+        "monthly": {
+          "price": "$7.49/month",
+          "rationale": "Low commitment for testing value"
+        },
+        "annual": {
+          "price": "$65.99/year",
+          "savings": "26%",
+          "rationale": "Encourages commitment"
+        },
+        "lifetime": {
+          "price": "$139",
+          "rationale": "Appeals to chronic patients, eliminates subscription anxiety"
+        }
+      },
+
+      "current_development_priorities": [
+        {
+          "priority": "Day-Centric Architecture Completion",
+          "tasks": [
+            "Finish migrating from legacy check-in model to unified health day records",
+            "Ensure treatment state syncs between FAB quick actions and check-in flow",
+            "Maintain backward compatibility during transition"
+          ]
+        },
+        {
+          "priority": "Core User Flow Optimization",
+          "flow": "Dashboard → Daily Check-in → Symptoms → Treatments → Factors → Summary → Insights"
+        },
+        {
+          "priority": "Advanced Features Implementation",
+          "features": [
+            "Weather integration with automatic factor tagging",
+            "Enhanced analytics with correlation insights",
+            "Medication reminder system with OneSignal",
+            "Export functionality for healthcare providers"
+          ]
+        },
+        {
+          "priority": "UI/UX Polish",
+          "tasks": [
+            "Consistent animation system using React Native Reanimated v3",
+            "Dark theme optimization for chronic illness users",
+            "Accessibility compliance for diverse user needs"
+          ]
+        }
+      ],
+
+      "technical_debt_quality": [
+        "Maintain 200+ test coverage as features expand",
+        "Optimize real-time sync and chart rendering",
+        "Use ESLint/Prettier, maintain TypeScript strict mode",
+        "Keep architecture docs updated as system evolves"
+      ],
+
+      "business_critical_features": [
+        "Subscription Integration: Implement premium feature gates",
+        "Provider Dashboard: Build healthcare provider interface",
+        "Data Export: Clinical-grade reporting for doctor visits",
+        "Community Features: Support groups and peer connections"
+      ],
+
+      "success_metrics": {
+        "user_engagement": {
+          "daily_checkin_completion_rate": ">60%",
+          "monthly_retention_rate": ">70%",
+          "average_streak_length": ">14 days"
+        },
+        "business_metrics": {
+          "free_to_premium_conversion": ">10%",
+          "monthly_churn_rate": "<5%",
+          "app_store_rating": ">4.5 stars"
+        },
+        "health_outcomes": [
+          "User-reported symptom improvement",
+          "Treatment adherence increase",
+          "Provider adoption rate"
+        ]
+      },
+
+      "social_impact": "Health-tech app with strong social impact potential - genuinely improving lives of chronic illness patients",
+
+      "strategic_positioning": [
+        "AI-Enhanced Development: Better tooling support for rapid feature development",
+        "Scalable Architecture: Foundation for 155K users and $1.4M ARR",
+        "Clinical Integration: Ability to build provider tools and healthcare partnerships",
+        "Community Building: Platform for Lyme disease patient support and advocacy"
+      ]
+    },
+
+    "genni": {
+      "status": "Active Development - Launch October 2025",
+      "role": "Founder & Lead Architect",
+      
+      "product_overview": {
+        "type": "Enterprise-grade AI-powered lead generation platform",
+        "market": "B2B lead generation and automated email outreach",
+        "architecture": "Sophisticated monorepo with multi-service system",
+        "tagline": "AI-powered lead generation platform with intelligent email sequences"
+      },
+
+      "core_functionality": [
+        {
+          "feature": "Smart Lead Discovery",
+          "details": "Google Maps API integration for business discovery and location data"
+        },
+        {
+          "feature": "Contact Enrichment",
+          "details": "FindyMail API for email and contact information enrichment"
+        },
+        {
+          "feature": "Tiered AI Research System",
+          "details": "3-tier research system: Tavily (fast 2-3s) → Exa (semantic 3-4s) → Perplexity (comprehensive 10-15s) with intelligent escalation"
+        },
+        {
+          "feature": "LangGraph Multi-Agent AI",
+          "details": "Optimized 3-agent system: Business Intelligence → Email Generation → Quality Assurance (57% fewer LLM calls, 50% faster than 7-agent predecessor)"
+        },
+        {
+          "feature": "Personalized Email Sequences",
+          "details": "AI-generated 5-email sequences with deep personalization using business intelligence"
+        },
+        {
+          "feature": "Real-time Pipeline Orchestration",
+          "details": "Enterprise-grade pipeline with live progress tracking, correlation logging, and 99.9% uptime"
+        },
+        {
+          "feature": "Advanced Credit Management",
+          "details": "Atomic two-phase commit credit system with reservation/commit/rollback"
+        }
+      ],
+
+      "enterprise_pipeline_features": [
+        "Real-time Status Broadcasting with priority messaging system",
+        "Sub-100ms correlation tracking with comprehensive performance metrics",
+        "99.9% uptime with comprehensive error recovery and retry mechanisms",
+        "Complete operation tracing with parent/child correlation trees",
+        "Adaptive rate limiting with dynamic batch sizing",
+        "Multi-tier rate limiting: Free/Pro/Enterprise plans with burst allowances",
+        "Intelligent batch processing with priority queuing",
+        "Event-driven architecture with immediate pipeline advancement"
+      ],
+
+      "technical_architecture": {
+        "monorepo_structure": "Turborepo with pnpm workspaces",
+        "frontend": {
+          "technology": "React 18 + TypeScript + Vite",
+          "ui_components": "shadcn/ui (Radix UI primitives)",
+          "styling": "Tailwind CSS",
+          "routing": "React Router DOM",
+          "state_management": "TanStack Query",
+          "form_handling": "React Hook Form with Zod validation",
+          "deployment": "Railway"
+        },
+        "langgraph_worker": {
+          "technology": "Python FastAPI with LangGraph",
+          "ai_system": "LangGraph multi-agent workflow orchestration",
+          "python_version": "3.11+",
+          "deployment": "Railway",
+          "purpose": "AI-powered email generation and lead analysis"
+        },
+        "backend": {
+          "technology": "Convex Cloud",
+          "capabilities": "Real-time database, authentication, actions, scheduled jobs, file storage",
+          "deployment": "Convex Cloud (integrated monorepo)"
+        },
+        "monitoring_analytics": {
+          "error_tracking": "Sentry",
+          "analytics": "PostHog",
+          "performance": "Sub-100ms correlation tracking system"
+        }
+      },
+
+      "langgraph_optimization": {
+        "architecture": "Optimized 3-agent system (down from 7 agents)",
+        "agents": [
+          {
+            "name": "Business Intelligence Agent",
+            "purpose": "Comprehensive research and analysis consolidation",
+            "features": [
+              "Tiered Research System: Tavily → Exa → Perplexity",
+              "Lead qualification and relevance analysis",
+              "Pain point identification and urgency assessment",
+              "Value proposition alignment and benefit quantification",
+              "Competitor analysis and industry insights"
+            ],
+            "processing_time": "8-12 seconds"
+          },
+          {
+            "name": "Email Generation Agent",
+            "purpose": "Personalized email writing with rich business context",
+            "features": [
+              "Context-rich email creation using business intelligence",
+              "Multi-touch email sequence generation",
+              "Industry-specific messaging and competitive differentiation",
+              "Proof point integration and credibility building"
+            ],
+            "processing_time": "10-15 seconds"
+          },
+          {
+            "name": "Quality Assurance Agent",
+            "purpose": "Email validation and quality enforcement",
+            "features": [
+              "Multi-dimensional quality scoring across 5 dimensions",
+              "Personalization depth validation and accuracy assessment",
+              "Professional communication standards enforcement",
+              "Business context integration verification",
+              "Improvement recommendations and quality gates"
+            ],
+            "processing_time": "5-8 seconds"
+          }
+        ],
+        "performance_improvements": {
+          "llm_calls_reduction": "57% (3 vs 7 agents)",
+          "execution_speed": "50% faster (25-30s vs 45-60s)",
+          "personalization": "Better quality with consolidated business context",
+          "maintenance": "Simplified debugging and system management"
+        }
+      },
+
+      "tiered_research_system": {
+        "tier_1_tavily": {
+          "response_time": "2-3 seconds",
+          "cost": "$0.001 per search",
+          "coverage": "Basic company information, website content",
+          "confidence_threshold": "≥0.6 to avoid escalation",
+          "use_case": "Free plan users and low-value leads"
+        },
+        "tier_2_exa": {
+          "response_time": "3-4 seconds",
+          "cost": "$0.005 per search",
+          "coverage": "Competitor analysis, industry insights, semantic search",
+          "confidence_threshold": "≥0.4 to avoid escalation",
+          "use_case": "Pro plan users and medium-value leads ($5K+)"
+        },
+        "tier_3_perplexity": {
+          "response_time": "10-15 seconds",
+          "cost": "$0.01 per search",
+          "coverage": "Comprehensive reports, deep analysis, expert insights",
+          "features": "Multi-source synthesis, trend analysis, premium databases",
+          "use_case": "Enterprise plan users and high-value leads ($10K+)"
+        },
+        "intelligent_escalation": "Automatic tier escalation based on confidence scores, user subscription tier, and lead value"
+      },
+
+      "database_architecture": {
+        "new_tables_added": 8,
+        "tables": [
+          "creditReservations: Two-phase commit credit management",
+          "rateLimitRecords: Sliding window rate limiting tracking",
+          "rateLimitViolations: Rate limit breach monitoring",
+          "adaptiveRateLimits: ML-style adaptive limit adjustments",
+          "batchPlans: Intelligent batch processing planning",
+          "searchBatches: Individual batch execution tracking",
+          "statusBroadcasts: Priority-based real-time messaging",
+          "correlationLogs: Complete operation genealogy tracking"
+        ]
+      },
+
+      "key_integrations": [
+        "Convex Backend - Real-time database and API layer",
+        "LangGraph - Multi-agent AI system for email generation",
+        "Google Maps API - Business discovery and location data",
+        "FindyMail API - Contact information enrichment",
+        "Tavily Search API - Tier 1 fast business research",
+        "Exa Search API - Tier 2 semantic search and competitor analysis",
+        "Perplexity API - Tier 3 comprehensive research reports",
+        "OpenAI API - GPT models for AI analysis and content generation",
+        "Stripe - Payment processing and subscription management",
+        "Clerk - Authentication with JWT verification",
+        "Railway - Deployment platform for frontend and worker"
+      ],
+
+      "development_responsibilities": [
+        "Monorepo Architecture: Designed Turborepo structure with proper workspace isolation",
+        "System Design: Created multi-service architecture with clean separation of concerns",
+        "Database Schema: Designed comprehensive data models for enterprise-grade operations",
+        "AI Optimization: Reduced LangGraph system from 7 to 3 agents (57% fewer LLM calls)",
+        "Pipeline Orchestration: Built state machine coordination with intelligent queue processing",
+        "Real-time Features: Implemented priority-based broadcasting system and correlation tracking",
+        "Credit System: Designed atomic two-phase commit credit operations",
+        "Rate Limiting: Implemented multi-tier adaptive rate limiting engine",
+        "DevOps: Set up CI/CD, monitoring (Sentry, PostHog), and Railway deployment",
+        "API Integration: Connected Google Maps, FindyMail, Tavily, Exa, Perplexity, and OpenAI"
+      },
+
+      "technical_achievements": [
+        "Monorepo Restructuring: Migrated from broken root-level Convex to clean workspace architecture",
+        "Convex CLI Resolution: Fixed Node.js bundling errors, restored full CLI functionality",
+        "Import System Modernization: Updated 17+ files to use proper workspace imports",
+        "LangGraph Migration: Complete transition from CrewAI to optimized LangGraph system",
+        "Enterprise Pipeline: Built production-ready pipeline with 99.9% uptime target",
+        "Correlation System: Implemented sub-100ms operation tracking with performance metrics",
+        "Clerk Integration: Complete JWT verification and webhook security implementation",
+        "Docker Optimization: Resolved Railway deployment with multi-stage builds",
+        "Security Updates: Fixed critical vulnerabilities in gunicorn, uvicorn, pydantic"
+      ],
+
+      "operational_excellence": [
+        "15 Automated Cron Jobs for cleanup, processing, and maintenance",
+        "Self-healing systems with automatic error recovery",
+        "Continuous health monitoring with alerting",
+        "Automatic resource allocation and scaling",
+        "30-day log retention with intelligent cleanup",
+        "Complete test suite with comprehensive coverage",
+        "Performance profiling and optimization tools",
+        "Rich analytics and reporting API"
+      ],
+
+      "business_impact": {
+        "reliability": "99.9% uptime with zero data loss through atomic transactions",
+        "performance": "Sub-100ms response times with predictable performance",
+        "scalability": "Handles thousands of concurrent users with intelligent batching",
+        "cost_optimization": "Precise credit tracking and intelligent resource management",
+        "user_experience": "Real-time feedback, transparent costs, reliable operations"
+      },
+
+      "value_proposition": "Enterprise-grade B2B SaaS platform combining optimized LangGraph AI agents, tiered research system (Tavily/Exa/Perplexity), real-time pipeline orchestration, atomic credit management, and comprehensive observability to automate lead generation and personalized outreach at scale"
+    }
+  },
+
+    "startup_participation": [
+      {
+        "startup": "Job board startup",
+        "period": "During college",
+        "role": "Team member",
+        "learnings": "Startup culture, adaptability, flexibility, mission-fit importance"
+      },
+      {
+        "startup": "Lyme Tracker (LymeTrack)",
+        "status": "Current",
+        "role": "Founder & Developer",
+        "learnings": "Mission-fit importance, passion-driven development, social impact focus",
+        "mission": "Health-tech app genuinely improving lives of chronic illness patients"
+      },
+      {
+        "startup": "Social media startup",
+        "role": "Technical Advisor",
+        "contribution": "Technical guidance and strategic direction"
+      }
+    ],
+    "mission_driven_philosophy": "Strong preference for mission-fit work - projects and roles where personal passion aligns with organizational purpose, particularly in areas like organic farming, health technology, and social impact"
+  },
+
+  "web_development_portfolio": {
+    "experience_years": "10+ years (2014-Present)",
+    "total_projects": "13+ websites delivered",
+    "client_retention": "Ongoing maintenance relationships with multiple long-term clients",
+
+    "websites_by_category": {
+      "professional_services": [
+        {
+          "client": "Branson CPA",
+          "url": "branson-cpa.com",
+          "type": "Accounting and financial services",
+          "description": "Professional business presence"
+        },
+        {
+          "client": "Dr. Aaron Strickland, DC",
+          "url": "aaronstricklanddc.com",
+          "type": "Chiropractic practice",
+          "description": "Healthcare professional branding"
+        },
+        {
+          "client": "Scenic Rivers CPAs",
+          "url": "scenicriverscpas.com",
+          "type": "Multi-location CPA firm",
+          "description": "Professional accounting services"
+        }
+      ],
+      "business_commercial": [
+        {
+          "client": "Aviation Enterprises",
+          "url": "aviationenterprises.com",
+          "type": "Aviation industry business",
+          "features": ["Google Workspace integration"]
+        },
+        {
+          "client": "Ozark Carpet & Flooring",
+          "url": "ozarkcarpet.com",
+          "type": "Home improvement and flooring services",
+          "description": "Local business website"
+        },
+        {
+          "client": "Ankerpak",
+          "url": "ankerpak.com",
+          "type": "Manufacturing & Logistics",
+          "description": "Corporate business presence"
+        },
+        {
+          "client": "Rich Rock Real Estate",
+          "url": "rich-rock-cf3g.squarespace.com",
+          "type": "Real estate services",
+          "description": "Property showcase platform"
+        }
+      ],
+      "service_industries": [
+        {
+          "client": "Nelson Pest & Maintenance",
+          "url": "charmousse-pete-ray5.squarespace.com",
+          "type": "Pest control and maintenance",
+          "description": "Local service provider"
+        },
+        {
+          "client": "Local Flavor Branson",
+          "url": "localflavorbranson.com",
+          "type": "Restaurant and dining",
+          "features": ["Menu showcase"]
+        }
+      ],
+      "creative_lifestyle": [
+        {
+          "client": "divvi",
+          "url": "divvi.co",
+          "type": "Creative services",
+          "description": "Modern business platform"
+        },
+        {
+          "client": "Drivejomo.com",
+          "url": "Epic Drives",
+          "type": "Automotive/travel experience",
+          "description": "Adventure and driving content"
+        },
+        {
+          "client": "Shiloh Hills Soaps",
+          "url": "shilohhillssoaps.com",
+          "type": "Artisan soap and skincare products",
+          "features": ["E-commerce", "Product showcase"]
+        }
+      ],
+      "content_media": [
+        {
+          "client": "Empowering Everyday Creators",
+          "type": "Portfolio site",
+          "description": "Content creator support platform",
+          "focus": ["Educational", "Community"]
+        }
+      ]
+    },
+
+    "technical_expertise": {
+      "platforms": ["Squarespace"],
+      "integrations": ["Google Workspace"],
+      "capabilities": [
+        "E-commerce",
+        "Responsive Design",
+        "SEO Optimization",
+        "Domain Management",
+        "Full website deployment"
+      ]
+    },
+
+    "industries_served": [
+      "Professional Services (CPAs, Healthcare)",
+      "Manufacturing & Logistics",
+      "Real Estate",
+      "Hospitality & Dining",
+      "Home Services",
+      "Retail & E-commerce",
+      "Creative Services",
+      "Automotive/Travel"
+    ],
+
+    "services_provided": [
+      "Custom website design and development",
+      "Brand identity integration",
+      "E-commerce setup and optimization",
+      "Content management systems",
+      "Domain registration and hosting",
+      "Ongoing maintenance and updates",
+      "SEO and digital marketing optimization"
+    ]
+  },
+
+  "technical_skills": {
+    "programming_languages": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Dart",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks_libraries": [
+      "SpringBoot",
+      "Angular",
+      "React Native",
+      "Flutter",
+      "MVC design patterns"
+    ],
+    "cloud_platforms": [
+      "AWS (EC2, Lightsail, S3, Route53, IAM)",
+      "Cloud-based infrastructures"
+    ],
+    "devops_cicd": [
+      "Jenkins",
+      "GitHub Actions",
+      "CI/CD pipelines",
+      "Git",
+      "GitHub"
+    ],
+    "databases": [
+      "SQL",
+      "No-SQL",
+      "Firebase",
+      "Convex"
+    ],
+    "monitoring_analytics": [
+      "AppDynamics Application Monitoring",
+      "Splunk",
+      "MixPanel",
+      "PostHog",
+      "Sentry"
+    ],
+    "application_servers": [
+      "WebLogic"
+    ],
+    "methodologies": [
+      "Agile methodologies",
+      "Agile transformations",
+      "SCRUM methodology"
+    ],
+    "specialized_skills": [
+      "AI",
+      "API calls",
+      "Data Architecture",
+      "Error Analytics",
+      "Full-stack development",
