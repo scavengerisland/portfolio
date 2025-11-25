@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* GreenLeaf-inspired color scheme */
+    --background: 40 33% 98%; /* cream-50 */
+    --foreground: 156 36% 16%; /* forest-800 */
+
+    --primary: 156 36% 16%; /* forest-800 */
+    --primary-foreground: 40 33% 98%; /* cream-50 */
+
+    --secondary: 120 8% 94%; /* sage-50 */
+    --secondary-foreground: 156 36% 16%;
+
+    --muted: 120 8% 90%; /* sage-100 */
+    --muted-foreground: 120 8% 40%;
+
+    --accent: 156 44% 40%; /* forest-500 */
+    --accent-foreground: 40 33% 98%;
+
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 156 44% 40%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-forest-200 text-forest-900;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-cream-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-forest-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-forest-400;
+}
