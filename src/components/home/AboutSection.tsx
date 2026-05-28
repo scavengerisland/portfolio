@@ -1,28 +1,28 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Leaf, Code, Users, Coffee } from "lucide-react";
+import { Leaf, Wrench, Briefcase, Rocket } from "lucide-react";
 
 const highlights = [
   {
-    icon: Code,
-    title: "Full Stack Developer",
-    description: "Java, SpringBoot, React, Flutter",
+    icon: Wrench,
+    title: "Senior engineer",
+    description: "6+ years shipping production systems, mostly full-stack web and mobile.",
   },
   {
     icon: Leaf,
-    title: "Agricultural Roots",
-    description: "Missouri farm background",
+    title: "Missouri-born",
+    description: "Grew up on a farm. Springfield, MO is still home.",
   },
   {
-    icon: Users,
-    title: "Mission-Driven",
-    description: "Technology for positive impact",
+    icon: Briefcase,
+    title: "Fractional CTO",
+    description: "Currently consulting through Light Works for nonprofits and small businesses.",
   },
   {
-    icon: Coffee,
-    title: "People. Tech. Coffee.",
-    description: "Bringing teams together",
+    icon: Rocket,
+    title: "Indie founder",
+    description: "Currently shipping LymeTrack and Ferment Buddy on the side.",
   },
 ];
 
@@ -57,26 +57,34 @@ export function AboutSection() {
           {/* Section Header */}
           <motion.div variants={itemVariants} className="text-center mb-12">
             <span className="text-forest-600 font-medium text-sm uppercase tracking-wider">
-              About Me
+              About
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-900 mt-2">
-              A passionate team of one
+              The short version.
             </h2>
           </motion.div>
 
           {/* Bio */}
           <motion.div
             variants={itemVariants}
-            className="prose prose-lg prose-forest max-w-none text-center mb-16"
+            className="prose prose-lg prose-forest max-w-none mb-16"
           >
             <p className="text-forest-700 text-lg leading-relaxed">
-              My diverse background bridges technology and agriculture, from
-              growing up on a Missouri farm to refactoring critical enterprise
-              applications. I bring hands-on experience with farm equipment
-              maintenance, technical problem-solving, and a passion for creating
-              innovative solutions that make a real difference. My work reflects
-              my commitment to mission-driven technology that creates positive
-              impact.
+              I grew up on a farm in Missouri, which turns out to be a worse
+              predictor of becoming a software engineer than you&apos;d think.
+              I&apos;ve spent the last three years at FedEx working on a $500M
+              modernization program, which is where I learned how big systems
+              actually break.
+            </p>
+            <p className="text-forest-700 text-lg leading-relaxed mt-4">
+              On the side, I build software products of my own and consult with
+              small organizations that need senior technology help. The two
+              reinforce each other. Building products teaches me what real users
+              actually need; consulting keeps me grounded in problems that have
+              to be solved this week, not next quarter.
+            </p>
+            <p className="text-forest-700 text-lg leading-relaxed mt-4">
+              Based in Springfield, Missouri. People. Tech. Coffee.
             </p>
           </motion.div>
 

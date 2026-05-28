@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
@@ -10,6 +10,11 @@ const socialLinks = [
     name: "GitHub",
     href: "https://github.com/scavengerisland",
     icon: Github,
+  },
+  {
+    name: "X",
+    href: "https://x.com/ethanwhutchison",
+    icon: Twitter,
   },
   {
     name: "LinkedIn",
@@ -75,8 +80,8 @@ export function HeroSection() {
               variants={itemVariants}
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-forest-900 mb-6"
             >
-              Creating technology with{" "}
-              <span className="text-forest-600">purpose</span>
+              I build software products and run a{" "}
+              <span className="text-forest-600">fractional CTO</span> practice.
             </motion.h1>
 
             {/* Subtitle */}
@@ -84,9 +89,10 @@ export function HeroSection() {
               variants={itemVariants}
               className="text-lg sm:text-xl text-forest-700 mb-8 max-w-xl leading-relaxed"
             >
-              Mission-driven developer focused on real-world impact. Passionate
-              technologist with 3+ years driving innovation at FedEx&apos;s $500M
-              modernization initiative.
+              Right now I&apos;m shipping LymeTrack for Lyme disease patients and
+              Ferment Buddy for home fermenters. On the consulting side, I run
+              Light Works — senior engineering for organizations too small to
+              hire a full-time CTO.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -95,10 +101,10 @@ export function HeroSection() {
               className="flex flex-wrap gap-4 mb-8"
             >
               <Button size="lg" asChild>
-                <a href="#contact">Get in Touch</a>
+                <a href="#building">See what I&apos;m building</a>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="#experience">View Experience</a>
+                <a href="#consulting">Hire me</a>
               </Button>
             </motion.div>
 
@@ -151,7 +157,7 @@ export function HeroSection() {
         className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden lg:block"
       >
         <a
-          href="#about"
+          href="#building"
           className="flex flex-col items-center text-forest-600 hover:text-forest-800 transition-colors"
         >
           <span className="text-sm mb-2">Scroll</span>
