@@ -1,12 +1,12 @@
 /**
  * Central site configuration: identity, contact, and link data.
- * Mirrors the AWS / Cloud & Data Engineer resume positioning.
+ * Mirrors the cloud/platform + recent AWS delivery resume positioning.
  */
 
 export const site = {
   name: "Ethan Hutchison",
   role: "Cloud & Data Engineer",
-  headline: "AWS Infrastructure, Data Pipelines & Production GenAI",
+  headline: "Cloud Infrastructure, AWS, Data Pipelines & Production GenAI",
   location: "Waco, TX",
   email: "ethan.hutchison@icloud.com",
   // Resume PDF served from /public (Ethan-Hutchison-Resume.pdf).

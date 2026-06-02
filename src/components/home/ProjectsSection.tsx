@@ -1,81 +1,61 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Activity, Timer, Workflow, LineChart } from "lucide-react";
+import { Activity, Workflow, LineChart } from "lucide-react";
 import { OrqestrateDiagram } from "@/components/home/OrqestrateDiagram";
 import { containerVariants, itemVariants } from "@/lib/site";
 
 /**
  * HONESTY BOUNDARIES:
- *  - "Built on Anthropic" only for Orqestrate, LymeTrack, FermentBuddy.
- *  - Genni uses OpenAI, tagged accordingly, never Anthropic.
+ *  - Genni is not tagged as Anthropic.
  *  - No Spark/Kafka/Glue/Athena/Redshift/EMR/dbt/Airflow/Snowflake/Databricks.
  */
 
 const secondaryProjects = [
   {
     title: "LymeTrack",
-    tagline: "Health tracking app · Anthropic",
+    tagline: "Health-data product · observability",
     icon: Activity,
     accent: "bg-rose-500",
     description:
-      "Full-stack health app for Lyme patients. Complex day-centric data model, real-time analytics, and AI features on Anthropic.",
+      "Designed and shipped a production health-data platform with complex domain modeling, analytics, AI-assisted workflows, and observability via Sentry/PostHog.",
     tags: [
-      "React Native",
-      "Expo",
-      "TypeScript",
-      "Convex",
-      "Clerk",
-      "Anthropic",
-      "200+ tests",
-    ],
-  },
-  {
-    title: "FermentBuddy",
-    tagline: "Fermentation app · Anthropic",
-    icon: Timer,
-    accent: "bg-amber-500",
-    description:
-      "React Native 0.81 + Expo SDK 54 app built with Anthropic. Convex serverless backend, EAS build/deploy, Superwall payments. Concept to store-ready.",
-    tags: [
-      "React Native",
-      "Expo / EAS",
-      "Convex",
-      "Superwall",
-      "Anthropic",
-      "PostHog / Sentry",
+      "Product Architecture",
+      "Domain Modeling",
+      "Analytics",
+      "AI Workflows",
+      "Sentry / PostHog",
     ],
   },
   {
     title: "DMP Email → Epicor ETL",
-    tagline: "Data-engineering consulting",
+    tagline: "Enterprise data pipeline",
     icon: Workflow,
     accent: "bg-forest-600",
     description:
-      "Python email-to-ERP ETL pipeline: OCR-extracts structured purchase orders (~95% accuracy) into Epicor. Targeting 220 orders/day (~$33K/yr) with schema migrations and a human-in-the-loop validation layer.",
+      "Built an enterprise email-to-ERP data pipeline in Python, processing ~220 purchase orders/day into Epicor with ingestion flow design, validation controls, schema migrations, and exception handling.",
     tags: [
       "Python",
-      "ETL Pipeline",
-      "OCR",
+      "Enterprise Data Pipeline",
       "Epicor ERP",
       "Schema Migrations",
-      "~95% accuracy",
+      "Validation Controls",
+      "Exception Handling",
     ],
   },
   {
     title: "Genni",
-    tagline: "B2B SaaS · multi-agent",
+    tagline: "B2B SaaS · data workflows",
     icon: LineChart,
     accent: "bg-indigo-500",
     description:
-      "Enterprise B2B lead-gen platform (Turborepo): React frontend, Python FastAPI multi-agent worker, Convex backend, Stripe billing. 8-table data model with an atomic two-phase-commit credit system.",
+      "Designed and shipped a B2B lead-generation platform with backend data workflows, Stripe billing integration, and asynchronous lead-enrichment pipelines.",
     tags: [
-      "Python",
-      "FastAPI",
-      "Multi-Agent AI",
-      "OpenAI",
-      "Convex",
+      "Backend Data Workflows",
+      "Lead Enrichment",
+      "Multi-Entity Data Model",
       "Stripe",
+      "Deployed SaaS",
     ],
   },
 ];
@@ -142,18 +122,18 @@ export function ProjectsSection() {
                 </p>
 
                 <p className="mt-4 text-forest-700 leading-relaxed">
-                  A multi-tenant platform that orchestrates a fleet of
-                  specialized AI agents (architect, builder, orchestrator) in
-                  isolated Fargate workers, powered by Anthropic. I
-                  designed and deployed the whole AWS footprint end-to-end with
-                  Terraform across isolated stage and prod VPCs.
+                  A multi-tenant AI agent-orchestration platform on AWS:
+                  Terraform-managed ECS Fargate workers, RDS Postgres, S3/EFS
+                  storage, KMS per-tenant encryption, and secure GitHub
+                  OIDC-based CI/CD. It runs containerized Anthropic-powered AI
+                  workloads in isolated ECS Fargate workers.
                 </p>
 
                 <ul className="mt-5 space-y-2">
                   {[
-                    "100% Terraform IaC: modules across shared / stage / prod",
+                    "Terraform-managed infrastructure across shared / stage / prod",
                     "Defense-in-depth: per-tenant KMS envelope encryption, IAM least-privilege + ABAC",
-                    "Keyless GitHub OIDC CI/CD: zero long-lived credentials",
+                    "Secure GitHub OIDC-based CI/CD with zero long-lived credentials",
                     "Cost-optimized dual-environment footprint (~$130–160/mo)",
                   ].map((point) => (
                     <li

@@ -63,9 +63,8 @@ export function ContactSection() {
               Let&apos;s talk.
             </h2>
             <p className="text-forest-200 mt-4 max-w-2xl mx-auto text-lg">
-              If you&apos;re hiring for cloud, data engineering, or AWS
-              consulting, or want a Well-Architected build taken from
-              architecture to production, I&apos;d love to connect.
+              If you&apos;re hiring for cloud/platform engineering, data
+              engineering, or AWS infrastructure work, I&apos;d love to connect.
             </p>
           </motion.div>
 
@@ -120,7 +119,7 @@ export function ContactSection() {
               {"< "}Ethan Hutchison{" />"}
             </span>
             <p className="text-forest-500 text-sm mt-2">
-              Cloud &amp; Data Engineer · AWS
+              Cloud &amp; Data Engineer · Cloud Infrastructure &amp; AWS
             </p>
           </motion.div>
         </motion.div>

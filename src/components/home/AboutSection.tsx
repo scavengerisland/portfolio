@@ -7,27 +7,27 @@ import { containerVariants, itemVariants } from "@/lib/site";
 const highlights = [
   {
     icon: Cloud,
-    title: "AWS, end-to-end",
+    title: "Cloud infrastructure & AWS",
     description:
-      "Well-Architected, multi-tenant infrastructure built with Terraform: ECS Fargate, RDS, S3, VPC, KMS, IAM/ABAC.",
+      "Recent hands-on AWS delivery with Terraform, ECS Fargate, RDS, S3/EFS, VPC, KMS, IAM/ABAC, and secure CI/CD.",
   },
   {
     icon: Database,
     title: "Data & ETL pipelines",
     description:
-      "Production ETL into ERP/Postgres with OCR extraction, schema migrations, and validation layers.",
+      "Enterprise email-to-ERP data pipelines with ingestion flows, validation controls, schema migrations, and exception handling.",
   },
   {
     icon: Bot,
     title: "Production GenAI",
     description:
-      "Agentic and AI-powered apps built on Anthropic, shipped from architecture to release.",
+      "Anthropic-powered software products shipped with production infrastructure, observability, and release workflows.",
   },
   {
     icon: GitBranch,
     title: "DevOps & CI/CD",
     description:
-      "Keyless GitHub OIDC pipelines, Jenkins→GitHub Actions migrations, and observability by default.",
+      "Secure GitHub OIDC pipelines, Jenkins→GitHub Actions migrations, and enterprise-grade observability.",
   },
 ];
 
@@ -55,21 +55,22 @@ export function AboutSection() {
           {/* Bio */}
           <motion.div variants={itemVariants} className="max-w-none mb-16">
             <p className="text-forest-700 text-lg leading-relaxed">
-              I&apos;m a cloud &amp; data engineer with 5+ years building and
-              operating production systems on AWS. At FedEx I&apos;ve worked
-              inside a $500M mainframe-retirement initiative, migrating
-              mission-critical Freight systems to modern cloud infrastructure,
-              leading the org&apos;s first Jenkins→GitHub Actions migration, and
-              maintaining 13 enterprise Java/Spring Boot applications.
+              I&apos;m a cloud &amp; data engineer with 5+ years shipping
+              production systems across enterprise cloud, DevOps, backend, and
+              data platforms. At FedEx I&apos;ve worked inside a $500M
+              mainframe-retirement initiative, helped move mission-critical
+              Freight systems toward modern cloud and platform engineering
+              patterns, led the org&apos;s first Jenkins→GitHub Actions
+              migration, and maintained 13 enterprise Java/Spring Boot
+              applications.
             </p>
             <p className="text-forest-700 text-lg leading-relaxed mt-4">
-              Outside of that I design and run real AWS infrastructure
-              end-to-end: a multi-tenant platform provisioned entirely with
+              Outside of that I apply that cloud/platform background to recent
+              hands-on AWS delivery: a multi-tenant platform provisioned with
               Terraform across isolated stage and prod VPCs, with per-tenant KMS
-              envelope encryption, ABAC task roles, and keyless OIDC deploys. On
-              top of it I ship data pipelines and production applications built
-              on Anthropic, and I keep the whole footprint
-              cost-optimized.
+              encryption, ABAC task roles, and secure OIDC deploys. I also ship
+              enterprise data pipelines and Anthropic-powered software with
+              production infrastructure, release workflows, and observability.
             </p>
             <p className="text-forest-700 text-lg leading-relaxed mt-4">
               Based in Waco, TX. AWS certifications in progress (Cloud

@@ -10,18 +10,17 @@ import { containerVariants, itemVariants } from "@/lib/site";
  */
 const skillCategories = [
   {
-    title: "AWS & Cloud Infrastructure",
+    title: "Cloud Infrastructure & AWS",
     level: "Advanced",
     icon: Cloud,
     color: "bg-[#FF9900]", // AWS orange
     skills: [
-      "EC2 & ECS Fargate",
-      "S3, EFS & RDS PostgreSQL",
+      "ECS Fargate & EC2",
+      "RDS PostgreSQL, S3 & EFS",
       "VPC, ALB & Route53",
-      "IAM, ABAC & KMS Encryption",
-      "Secrets Manager",
+      "IAM, KMS & Secrets Manager",
       "CloudWatch & CloudTrail",
-      "Lightsail",
+      "Backup / DR",
       "Multi-Tenant Architecture",
       "Well-Architected & Cost Optimization",
     ],
@@ -33,12 +32,13 @@ const skillCategories = [
     color: "bg-[#5C4EE5]", // terraform-ish purple
     skills: [
       "Terraform",
-      "GitHub Actions (OIDC) CI/CD",
+      "GitHub Actions OIDC CI/CD",
       "Docker & Containerization",
       "Multi-Environment (stage / prod)",
       "Jenkins",
       "Cloud Migration",
-      "Sentry · Splunk · AppDynamics · PostHog",
+      "Incident Response",
+      "Monitoring (CloudWatch, Sentry, Splunk, AppDynamics, PostHog)",
     ],
   },
   {
@@ -54,7 +54,7 @@ const skillCategories = [
       "Python",
       "Java & Spring Boot",
       "REST APIs & Webhooks",
-      "Convex (real-time data)",
+      "Backend Data Workflows",
     ],
   },
   {
@@ -66,10 +66,10 @@ const skillCategories = [
       "Anthropic API",
       "Agentic / Multi-Agent AI",
       "Anthropic on Amazon Bedrock",
-      "Prompt Engineering",
+      "Production AI Workloads",
       "AI-Assisted Development",
       "TypeScript & React / React Native",
-      "Agile / SCRUM",
+      "Product Architecture",
     ],
   },
 ];

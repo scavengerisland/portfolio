@@ -12,9 +12,9 @@ const socials = [
 ];
 
 const stats = [
-  { value: "5+ yrs", label: "Production AWS" },
-  { value: "$500M", label: "FedEx cloud migration" },
-  { value: "100%", label: "Terraform IaC" },
+  { value: "5+ yrs", label: "Cloud / DevOps" },
+  { value: "$500M", label: "FedEx modernization" },
+  { value: "AWS", label: "Recent hands-on delivery" },
 ];
 
 export function HeroSection() {
@@ -60,7 +60,7 @@ export function HeroSection() {
               variants={itemVariants}
               className="text-4xl sm:text-5xl lg:text-6xl font-bold text-forest-900 mb-3 text-balance"
             >
-              Cloud &amp; Data Engineer building on{" "}
+              Cloud &amp; Data Engineer building production{" "}
               <span className="text-forest-600">AWS</span>.
             </motion.h1>
 
@@ -68,8 +68,7 @@ export function HeroSection() {
               variants={itemVariants}
               className="text-base sm:text-lg font-semibold text-forest-500 mb-6"
             >
-              AWS Infrastructure · Data Pipelines · Production GenAI on Anthropic
-              Anthropic
+              Cloud Infrastructure · AWS Delivery · Data Pipelines · Production GenAI
             </motion.p>
 
             {/* Subtitle */}
@@ -77,11 +76,11 @@ export function HeroSection() {
               variants={itemVariants}
               className="text-lg text-forest-700 mb-8 max-w-xl leading-relaxed"
             >
-              I design Well-Architected, multi-tenant AWS infrastructure
-              end-to-end with Terraform, ship ETL and data pipelines, and deliver
-              production generative AI built on Anthropic. Enterprise-proven
-              at FedEx&apos;s $500M cloud migration, and hands-on as a consultant
-              who takes systems from architecture to production fast.
+              I have a broad cloud/platform background with recent hands-on AWS
+              delivery: Terraform, ECS Fargate, RDS, VPC, KMS, IAM/ABAC, and
+              secure GitHub OIDC-based CI/CD. Enterprise-proven at FedEx through
+              a $500M modernization initiative, with independent work spanning
+              AWS infrastructure, ETL/data pipelines, and production GenAI.
             </motion.p>
 
             {/* CTA buttons */}

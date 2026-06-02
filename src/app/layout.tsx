@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ethanh.co"),
   title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
   description:
-    "Cloud & Data Engineer building Well-Architected, multi-tenant AWS infrastructure with Terraform, ETL/data pipelines, and production generative AI on Anthropic. Enterprise-proven at FedEx. Open to AWS, cloud, and data-engineering roles.",
+    "Cloud & Data Engineer with 5+ years shipping enterprise cloud, DevOps, backend, and data platforms. Recent hands-on AWS delivery with Terraform, ECS Fargate, RDS, secure GitHub OIDC CI/CD, ETL/data pipelines, and production GenAI.",
   keywords: [
     "Ethan Hutchison",
     "Cloud Engineer",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
     description:
-      "AWS infrastructure, data pipelines, and production GenAI on Anthropic. Open to AWS, cloud, and data-engineering roles.",
+      "Enterprise cloud/platform background with recent hands-on AWS infrastructure, data pipelines, and production GenAI.",
     url: "https://ethanh.co",
     siteName: "Ethan Hutchison",
     type: "website",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
     description:
-      "AWS infrastructure, data pipelines, and production GenAI on Anthropic. Open to AWS, cloud, and data-engineering roles.",
+      "Enterprise cloud/platform background with recent hands-on AWS infrastructure, data pipelines, and production GenAI.",
   },
 };
 
