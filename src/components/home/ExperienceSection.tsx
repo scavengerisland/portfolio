@@ -6,7 +6,7 @@ import { containerVariants } from "@/lib/site";
 
 const experiences = [
   {
-    title: "Software Developer II — Cloud & DevOps",
+    title: "Software Developer II, Cloud & DevOps",
     company: "FedEx",
     note: "Promoted Intern → Dev I → Dev II",
     location: "Remote",
@@ -14,9 +14,9 @@ const experiences = [
     icon: Building2,
     color: "bg-purple-100 text-purple-700",
     highlights: [
-      "Led the org's first migration from Jenkins → GitHub Actions across ~15 applications — standardized automated CI/CD and a build-once-promote release flow adopted as the template for future conversions.",
+      "Led the org's first migration from Jenkins → GitHub Actions across ~15 applications, standardizing automated CI/CD (build, test, deploy) and a build-once-promote release flow that became the template for future conversions.",
       "Contributed to a $500M mainframe-retirement initiative, migrating mission-critical FedEx Freight systems to modern cloud infrastructure.",
-      "Administered 13 critical enterprise Java/Spring Boot apps — config, security patching, IAM, production troubleshooting; 80% test coverage and ~50% refactoring gains via AI-assisted analysis.",
+      "Administered 13 critical enterprise Java/Spring Boot apps (config, security patching, IAM, production troubleshooting); 80% test coverage and ~50% refactoring gains via AI-assisted analysis.",
       "Built GitSync (PowerShell) for auditable batch Git-repo migration during FedEx Freight's multi-billion-dollar corporate separation.",
       "Drove DevOps modernization (retired 90+ redundant config-server instances) and presented roadmaps to 400+ stakeholders.",
     ],
@@ -30,9 +30,9 @@ const experiences = [
     icon: Cloud,
     color: "bg-forest-100 text-forest-700",
     highlights: [
-      "AWS platform & Orqestrate (product): Designed & deployed a multi-tenant AWS platform end-to-end in Terraform — ECS Fargate, RDS Postgres, S3/EFS, VPC, ALB — with KMS per-tenant envelope encryption, IAM/ABAC, and GitHub OIDC keyless CI/CD across two isolated environments; built Orqestrate, an Anthropic-powered agentic platform running fleets of AI agents in isolated Fargate/Docker workers.",
-      "DMP — client engagement (2026): Built a Python email-to-ERP ETL pipeline — OCR extraction (~95% accuracy) of purchase orders into Epicor, ~220 orders/day; designed the data flow, schema migrations, and validation / human-in-the-loop layer.",
-      "Talking Bibles Intl. — client engagement (2025–Present): Recovered a fully compromised AWS environment (EC2, S3, Lightsail, Route53, IAM) and designed a 3-month stabilization program (DR, centralized secrets, 24/7 monitoring).",
+      "AWS platform & Orqestrate (product): Designed and deployed a multi-tenant AWS platform end-to-end in Terraform (ECS Fargate, RDS Postgres, S3/EFS, VPC, ALB) with KMS per-tenant envelope encryption, IAM/ABAC, and GitHub OIDC keyless CI/CD across two isolated environments. Built Orqestrate, an Anthropic-powered agentic platform that runs fleets of AI agents in isolated Fargate/Docker workers.",
+      "DMP (client engagement, 2026): Built a Python email-to-ERP ETL pipeline: OCR extraction (~95% accuracy) of purchase orders into Epicor at ~220 orders/day. Designed the data flow, schema migrations, and the validation / human-in-the-loop layer.",
+      "Talking Bibles Intl. (client engagement, 2025–Present): Recovered a fully compromised AWS environment (EC2, S3, Lightsail, Route53, IAM) and designed a 3-month stabilization program (DR, centralized secrets, 24/7 monitoring).",
       "Shipped production apps built on Anthropic (LymeTrack, FermentBuddy) from architecture through release, with Sentry/PostHog observability.",
     ],
   },

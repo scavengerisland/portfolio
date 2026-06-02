@@ -7,7 +7,7 @@ import { containerVariants, itemVariants } from "@/lib/site";
 const certs = [
   {
     name: "AWS Certified Cloud Practitioner",
-    status: "In progress — exam scheduled 2026",
+    status: "In progress, exam scheduled 2026",
   },
   {
     name: "AWS Certified Solutions Architect – Associate",
