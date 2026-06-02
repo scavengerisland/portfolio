@@ -15,33 +15,36 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Ethan Hutchison | Mission-Driven Developer",
+  metadataBase: new URL("https://ethanh.co"),
+  title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
   description:
-    "A mission-driven technologist passionate about creating solutions with real-world positive impact. Expertise in full-stack development, agile methodologies, and cross-functional collaboration.",
+    "Cloud & Data Engineer building Well-Architected, multi-tenant AWS infrastructure with Terraform, ETL/data pipelines, and production generative AI on Anthropic. Enterprise-proven at FedEx. Open to AWS, cloud, and data-engineering roles.",
   keywords: [
     "Ethan Hutchison",
-    "Full Stack Developer",
-    "Software Engineer",
+    "Cloud Engineer",
+    "Data Engineer",
+    "AWS",
+    "Terraform",
+    "ECS Fargate",
+    "ETL",
+    "Anthropic",
+    "DevOps",
     "FedEx",
-    "LymeTrack",
-    "React",
-    "Java",
-    "SpringBoot",
   ],
   authors: [{ name: "Ethan Hutchison" }],
   openGraph: {
-    title: "Ethan Hutchison | Mission-Driven Developer",
+    title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
     description:
-      "Creating technology with purpose. Mission-driven developer focused on real-world impact.",
+      "AWS infrastructure, data pipelines, and production GenAI on Anthropic. Open to AWS, cloud, and data-engineering roles.",
     url: "https://ethanh.co",
     siteName: "Ethan Hutchison",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ethan Hutchison | Mission-Driven Developer",
+    title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
     description:
-      "Creating technology with purpose. Mission-driven developer focused on real-world impact.",
+      "AWS infrastructure, data pipelines, and production GenAI on Anthropic. Open to AWS, cloud, and data-engineering roles.",
   },
 };
 

@@ -1,87 +1,78 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Cloud, Wrench, Lightbulb } from "lucide-react";
+import { Cloud, Terminal, Database, Sparkles } from "lucide-react";
+import { containerVariants, itemVariants } from "@/lib/site";
 
+/**
+ * Skill groups mirror the AWS-aligned resume exactly.
+ * HONESTY: no Spark/Kafka/Glue/Athena/Redshift/EMR/dbt/Airflow/Snowflake/Databricks.
+ */
 const skillCategories = [
   {
-    title: "Full Stack Development",
-    icon: Code,
-    skills: [
-      "Java",
-      "SpringBoot",
-      "React",
-      "TypeScript",
-      "Python",
-      "Flutter",
-      "Firebase",
-      "MySQL",
-      "HTML/CSS",
-      "JUnit5",
-    ],
-    color: "bg-blue-500",
-  },
-  {
-    title: "Cloud & DevOps",
+    title: "AWS & Cloud Infrastructure",
+    level: "Advanced",
     icon: Cloud,
+    color: "bg-[#FF9900]", // AWS orange
     skills: [
-      "GitHub Actions",
+      "EC2 & ECS Fargate",
+      "S3, EFS & RDS PostgreSQL",
+      "VPC, ALB & Route53",
+      "IAM, ABAC & KMS Encryption",
+      "Secrets Manager",
+      "CloudWatch & CloudTrail",
+      "Lightsail",
+      "Multi-Tenant Architecture",
+      "Well-Architected & Cost Optimization",
+    ],
+  },
+  {
+    title: "Infrastructure as Code & DevOps",
+    level: "Advanced",
+    icon: Terminal,
+    color: "bg-[#5C4EE5]", // terraform-ish purple
+    skills: [
+      "Terraform",
+      "GitHub Actions (OIDC) CI/CD",
+      "Docker & Containerization",
+      "Multi-Environment (stage / prod)",
       "Jenkins",
-      "Azure",
-      "PCF",
-      "Splunk",
-      "AppDynamics",
-      "CI/CD",
-      "Docker",
+      "Cloud Migration",
+      "Sentry · Splunk · AppDynamics · PostHog",
     ],
-    color: "bg-purple-500",
   },
   {
-    title: "Platforms & Tools",
-    icon: Wrench,
+    title: "Data Engineering & Backend",
+    level: "Advanced",
+    icon: Database,
+    color: "bg-forest-600",
     skills: [
-      "GitHub",
-      "Salesforce",
-      "IntelliJ",
-      "VS Code",
-      "Jira",
-      "Confluence",
-      "Squarespace",
-      "WordPress",
+      "ETL / ELT Pipelines",
+      "PostgreSQL & SQL",
+      "SQL / NoSQL Data Modeling",
+      "Data Migration & Schema Design",
+      "Python",
+      "Java & Spring Boot",
+      "REST APIs & Webhooks",
+      "Convex (real-time data)",
     ],
-    color: "bg-forest-500",
   },
   {
-    title: "Interests & Expertise",
-    icon: Lightbulb,
+    title: "Generative AI & Application Dev",
+    level: "Advanced",
+    icon: Sparkles,
+    color: "bg-[#D97757]", // Anthropic clay
     skills: [
-      "Agile/Scrum",
-      "AI Integration",
-      "Data Architecture",
-      "Team Leadership",
-      "Agricultural Tech",
-      "Technical Writing",
+      "Anthropic API",
+      "Agentic / Multi-Agent AI",
+      "Anthropic on Amazon Bedrock",
+      "Prompt Engineering",
+      "AI-Assisted Development",
+      "TypeScript & React / React Native",
+      "Agile / SCRUM",
     ],
-    color: "bg-amber-500",
   },
 ];
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { staggerChildren: 0.1 },
-  },
-} as const;
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" as const },
-  },
-};
 
 export function SkillsSection() {
   return (
@@ -93,21 +84,21 @@ export function SkillsSection() {
           viewport={{ once: true, margin: "-100px" }}
           variants={containerVariants}
         >
-          {/* Section Header */}
+          {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
             <span className="text-forest-600 font-medium text-sm uppercase tracking-wider">
               Technical Skills
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-900 mt-2">
-              Tools of the Trade
+              Built for AWS &amp; data.
             </h2>
             <p className="text-forest-600 mt-4 max-w-2xl mx-auto">
-              A diverse toolkit built through enterprise experience and personal
-              projects
+              A focused toolkit — proven on enterprise cloud migrations and on
+              infrastructure I design, deploy, and operate end-to-end.
             </p>
           </motion.div>
 
-          {/* Skills Grid */}
+          {/* Skills grid */}
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {skillCategories.map((category) => (
               <motion.div
@@ -115,19 +106,24 @@ export function SkillsSection() {
                 variants={itemVariants}
                 className="bg-cream-50 rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300"
               >
-                {/* Category Header */}
+                {/* Category header */}
                 <div className="flex items-center gap-4 mb-6">
                   <div
                     className={`w-12 h-12 ${category.color} rounded-xl flex items-center justify-center text-white shadow-sm`}
                   >
                     <category.icon className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-semibold text-forest-900">
-                    {category.title}
-                  </h3>
+                  <div>
+                    <h3 className="text-xl font-semibold text-forest-900 leading-tight">
+                      {category.title}
+                    </h3>
+                    <span className="text-xs font-medium text-forest-500 uppercase tracking-wide">
+                      {category.level}
+                    </span>
+                  </div>
                 </div>
 
-                {/* Skills Tags */}
+                {/* Skill tags */}
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill) => (
                     <span
@@ -141,6 +137,15 @@ export function SkillsSection() {
               </motion.div>
             ))}
           </div>
+
+          {/* Certifications note */}
+          <motion.p
+            variants={itemVariants}
+            className="text-center text-sm text-forest-500 mt-12"
+          >
+            AWS certifications in progress — Cloud Practitioner &amp; Solutions
+            Architect Associate (2026).
+          </motion.p>
         </motion.div>
       </div>
     </section>

@@ -1,47 +1,35 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Leaf, Wrench, Briefcase, Rocket } from "lucide-react";
+import { Cloud, Database, Bot, GitBranch } from "lucide-react";
+import { containerVariants, itemVariants } from "@/lib/site";
 
 const highlights = [
   {
-    icon: Wrench,
-    title: "Senior engineer",
-    description: "6+ years shipping production systems, mostly full-stack web and mobile.",
+    icon: Cloud,
+    title: "AWS, end-to-end",
+    description:
+      "Well-Architected, multi-tenant infrastructure built with Terraform — ECS Fargate, RDS, S3, VPC, KMS, IAM/ABAC.",
   },
   {
-    icon: Leaf,
-    title: "Missouri-born",
-    description: "Grew up on a farm. Springfield, MO is still home.",
+    icon: Database,
+    title: "Data & ETL pipelines",
+    description:
+      "Production ETL into ERP/Postgres with OCR extraction, schema migrations, and validation layers.",
   },
   {
-    icon: Briefcase,
-    title: "Fractional CTO",
-    description: "Currently consulting through Light Works for nonprofits and small businesses.",
+    icon: Bot,
+    title: "Production GenAI",
+    description:
+      "Agentic and AI-powered apps built on Anthropic, shipped from architecture to release.",
   },
   {
-    icon: Rocket,
-    title: "Indie founder",
-    description: "Currently shipping LymeTrack and Ferment Buddy on the side.",
+    icon: GitBranch,
+    title: "DevOps & CI/CD",
+    description:
+      "Keyless GitHub OIDC pipelines, Jenkins→GitHub Actions migrations, and observability by default.",
   },
 ];
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { staggerChildren: 0.1 },
-  },
-} as const;
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" as const },
-  },
-};
 
 export function AboutSection() {
   return (
@@ -54,41 +42,44 @@ export function AboutSection() {
           variants={containerVariants}
           className="max-w-4xl mx-auto"
         >
-          {/* Section Header */}
+          {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-12">
             <span className="text-forest-600 font-medium text-sm uppercase tracking-wider">
               About
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-900 mt-2">
-              The short version.
+              Cloud engineer who ships.
             </h2>
           </motion.div>
 
           {/* Bio */}
-          <motion.div
-            variants={itemVariants}
-            className="prose prose-lg prose-forest max-w-none mb-16"
-          >
+          <motion.div variants={itemVariants} className="max-w-none mb-16">
             <p className="text-forest-700 text-lg leading-relaxed">
-              I grew up on a farm in Missouri, which turns out to be a worse
-              predictor of becoming a software engineer than you&apos;d think.
-              I&apos;ve spent the last three years at FedEx working on a $500M
-              modernization program, which is where I learned how big systems
-              actually break.
+              I&apos;m a cloud &amp; data engineer with 5+ years building and
+              operating production systems on AWS. At FedEx I&apos;ve worked
+              inside a $500M mainframe-retirement initiative — migrating
+              mission-critical Freight systems to modern cloud infrastructure,
+              leading the org&apos;s first Jenkins→GitHub Actions migration, and
+              maintaining 13 enterprise Java/Spring Boot applications.
             </p>
             <p className="text-forest-700 text-lg leading-relaxed mt-4">
-              On the side, I build software products of my own and consult with
-              small organizations that need senior technology help. The two
-              reinforce each other. Building products teaches me what real users
-              actually need; consulting keeps me grounded in problems that have
-              to be solved this week, not next quarter.
+              Outside of that I design and run real AWS infrastructure
+              end-to-end: a multi-tenant platform provisioned entirely with
+              Terraform across isolated stage and prod VPCs, with per-tenant KMS
+              envelope encryption, ABAC task roles, and keyless OIDC deploys. On
+              top of it I ship data pipelines and production applications built
+              on Anthropic — and I keep the whole footprint
+              cost-optimized.
             </p>
             <p className="text-forest-700 text-lg leading-relaxed mt-4">
-              Based in Springfield, Missouri. People. Tech. Coffee.
+              Based in Waco, TX. AWS certifications in progress (Cloud
+              Practitioner and Solutions Architect Associate, 2026). I&apos;m
+              looking for a cloud, data, or AWS-consulting role where I can take
+              solutions from architecture to production.
             </p>
           </motion.div>
 
-          {/* Highlight Cards */}
+          {/* Highlight cards */}
           <motion.div
             variants={containerVariants}
             className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"
@@ -97,15 +88,17 @@ export function AboutSection() {
               <motion.div
                 key={item.title}
                 variants={itemVariants}
-                className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 text-center group"
+                className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 group"
               >
-                <div className="w-14 h-14 bg-forest-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-forest-200 transition-colors">
+                <div className="w-14 h-14 bg-forest-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-forest-200 transition-colors">
                   <item.icon className="w-7 h-7 text-forest-600" />
                 </div>
                 <h3 className="font-semibold text-forest-900 mb-1">
                   {item.title}
                 </h3>
-                <p className="text-sm text-forest-600">{item.description}</p>
+                <p className="text-sm text-forest-600 leading-relaxed">
+                  {item.description}
+                </p>
               </motion.div>
             ))}
           </motion.div>
