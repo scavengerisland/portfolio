@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Building2, Cloud, Workflow, ShieldCheck } from "lucide-react";
+import { Building2, Cloud } from "lucide-react";
 import { containerVariants } from "@/lib/site";
 
 const experiences = [
@@ -10,60 +10,30 @@ const experiences = [
     company: "FedEx",
     note: "Promoted Intern → Dev I → Dev II",
     location: "Remote",
-    duration: "Jun 2021 – Present",
+    duration: "Jun 2021 – Present · 5 yrs",
     icon: Building2,
     color: "bg-purple-100 text-purple-700",
     highlights: [
-      "Contributed to a $500M mainframe-retirement initiative, migrating mission-critical Freight systems to modern cloud infrastructure.",
-      "Led the org's first Jenkins → GitHub Actions CI/CD migration across ~15 applications.",
-      "Administered 13 critical enterprise Java/Spring Boot apps — config, security patching, IAM, production troubleshooting.",
-      "Built Splunk/AppDynamics analytics dashboards; AI-assisted code analysis for ~50% refactoring gains and 80% test coverage.",
-      "Architected GitSync (PowerShell) for auditable batch Git-repo migration during a multi-billion-dollar corporate separation.",
-      "Delivered quarterly roadmap presentations to 400+ stakeholders.",
+      "Led the org's first migration from Jenkins → GitHub Actions across ~15 applications — standardized automated CI/CD and a build-once-promote release flow adopted as the template for future conversions.",
+      "Contributed to a $500M mainframe-retirement initiative, migrating mission-critical FedEx Freight systems to modern cloud infrastructure.",
+      "Administered 13 critical enterprise Java/Spring Boot apps — config, security patching, IAM, production troubleshooting; 80% test coverage and ~50% refactoring gains via AI-assisted analysis.",
+      "Built GitSync (PowerShell) for auditable batch Git-repo migration during FedEx Freight's multi-billion-dollar corporate separation.",
+      "Drove DevOps modernization (retired 90+ redundant config-server instances) and presented roadmaps to 400+ stakeholders.",
     ],
   },
   {
-    title: "Founder & Lead Cloud / AI Engineer",
+    title: "Independent Cloud & Data Consultant",
     company: "Light Works Studio",
-    note: "",
+    note: "client engagements & self-built products",
     location: "Remote",
-    duration: "Jan 2023 – Present",
+    duration: "2024 – Present",
     icon: Cloud,
     color: "bg-forest-100 text-forest-700",
     highlights: [
-      "Designed & deployed a multi-tenant AWS platform end-to-end with Terraform — ECS Fargate, RDS PostgreSQL, S3, EFS, VPC, ALB, CloudWatch/CloudTrail — across isolated stage + prod VPCs.",
-      "Implemented defense-in-depth: KMS envelope encryption with per-tenant data keys, Secrets Manager, IAM least-privilege + ABAC, and GitHub OIDC for keyless CI/CD.",
-      "Engineered Orqestrate, an Anthropic-powered agentic platform running specialized agents in isolated Docker/Fargate workers.",
-      "Shipped production apps built on Anthropic (LymeTrack, FermentBuddy) from architecture through App Store release, with Sentry/PostHog observability.",
-      "Engineered cost-optimized infrastructure (full dual-environment footprint at ~$130–160/mo).",
-    ],
-  },
-  {
-    title: "Data Engineering Consultant — ETL Pipeline",
-    company: "DMP (Manufacturing & Distribution)",
-    note: "Contract",
-    location: "Remote",
-    duration: "Oct 2024 – Present",
-    icon: Workflow,
-    color: "bg-amber-100 text-amber-700",
-    highlights: [
-      "Built a Python email-to-ERP ETL pipeline: OCR-extracts structured purchase orders (~95% accuracy) and loads them into Epicor — targeting 220 orders/day (~$33K/yr).",
-      "Designed the data flow, schema migrations, validation/warning layer, and human-in-the-loop feedback loop.",
-      "Implemented multi-source extraction, OCR provider selection, and per-order error handling for reliable production processing.",
-    ],
-  },
-  {
-    title: "Cloud & Security Consultant / Sysadmin",
-    company: "Talking Bibles International",
-    note: "",
-    location: "Remote",
-    duration: "Jan 2023 – Present",
-    icon: ShieldCheck,
-    color: "bg-blue-100 text-blue-700",
-    highlights: [
-      "Recovered a fully compromised AWS environment (EC2, S3, Lightsail, Route53, IAM) — restored root access, disabled compromised users, shut down unauthorized crypto-mining, added emergency controls and cost monitoring.",
-      "Consolidated 25+ email accounts and legacy systems across multiple domains/registrars with zero data loss.",
-      "Designed a 3-month stabilization program: disaster recovery, centralized secrets, 24/7 monitoring, and staff training.",
+      "AWS platform & Orqestrate (product): Designed & deployed a multi-tenant AWS platform end-to-end in Terraform — ECS Fargate, RDS Postgres, S3/EFS, VPC, ALB — with KMS per-tenant envelope encryption, IAM/ABAC, and GitHub OIDC keyless CI/CD across two isolated environments; built Orqestrate, an Anthropic-powered agentic platform running fleets of AI agents in isolated Fargate/Docker workers.",
+      "DMP — client engagement (2026): Built a Python email-to-ERP ETL pipeline — OCR extraction (~95% accuracy) of purchase orders into Epicor, ~220 orders/day; designed the data flow, schema migrations, and validation / human-in-the-loop layer.",
+      "Talking Bibles Intl. — client engagement (2025–Present): Recovered a fully compromised AWS environment (EC2, S3, Lightsail, Route53, IAM) and designed a 3-month stabilization program (DR, centralized secrets, 24/7 monitoring).",
+      "Shipped production apps built on Anthropic (LymeTrack, FermentBuddy) from architecture through release, with Sentry/PostHog observability.",
     ],
   },
 ];
