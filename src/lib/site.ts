@@ -1,5 +1,5 @@
 /**
- * Central site configuration — identity, contact, and link data.
+ * Central site configuration: identity, contact, and link data.
  * Mirrors the AWS / Cloud & Data Engineer resume positioning.
  */
 
@@ -9,7 +9,7 @@ export const site = {
   headline: "AWS Infrastructure, Data Pipelines & Production GenAI",
   location: "Waco, TX",
   email: "ethan.hutchison@icloud.com",
-  // Placeholder — replace with a real PDF once one exists.
+  // Resume PDF served from /public (Ethan-Hutchison-Resume.pdf).
   resumeHref: "/Ethan-Hutchison-Resume.pdf",
   github: "https://github.com/scavengerisland",
   linkedin: "https://linkedin.com/in/ethanhutchison",

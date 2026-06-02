@@ -8,7 +8,7 @@ import { containerVariants, itemVariants } from "@/lib/site";
 /**
  * HONESTY BOUNDARIES:
  *  - "Built on Anthropic" only for Orqestrate, LymeTrack, FermentBuddy.
- *  - Genni uses OpenAI — tagged accordingly, never Anthropic.
+ *  - Genni uses OpenAI, tagged accordingly, never Anthropic.
  *  - No Spark/Kafka/Glue/Athena/Redshift/EMR/dbt/Airflow/Snowflake/Databricks.
  */
 
@@ -36,7 +36,7 @@ const secondaryProjects = [
     icon: Timer,
     accent: "bg-amber-500",
     description:
-      "React Native 0.81 + Expo SDK 54 app built with Anthropic. Convex serverless backend, EAS build/deploy, Superwall payments — concept to store-ready.",
+      "React Native 0.81 + Expo SDK 54 app built with Anthropic. Convex serverless backend, EAS build/deploy, Superwall payments. Concept to store-ready.",
     tags: [
       "React Native",
       "Expo / EAS",
@@ -112,7 +112,7 @@ export function ProjectsSection() {
               Production systems, shipped.
             </h2>
             <p className="text-forest-600 mt-4 max-w-2xl mx-auto">
-              Real AWS infrastructure, data pipelines, and AI products — taken
+              Real AWS infrastructure, data pipelines, and AI products, taken
               from architecture to production.
             </p>
           </motion.div>
@@ -144,16 +144,16 @@ export function ProjectsSection() {
                 <p className="mt-4 text-forest-700 leading-relaxed">
                   A multi-tenant platform that orchestrates a fleet of
                   specialized AI agents (architect, builder, orchestrator) in
-                  isolated Fargate workers — powered by Anthropic. I
+                  isolated Fargate workers, powered by Anthropic. I
                   designed and deployed the whole AWS footprint end-to-end with
                   Terraform across isolated stage and prod VPCs.
                 </p>
 
                 <ul className="mt-5 space-y-2">
                   {[
-                    "100% Terraform IaC — modules across shared / stage / prod",
+                    "100% Terraform IaC: modules across shared / stage / prod",
                     "Defense-in-depth: per-tenant KMS envelope encryption, IAM least-privilege + ABAC",
-                    "Keyless GitHub OIDC CI/CD — zero long-lived credentials",
+                    "Keyless GitHub OIDC CI/CD: zero long-lived credentials",
                     "Cost-optimized dual-environment footprint (~$130–160/mo)",
                   ].map((point) => (
                     <li

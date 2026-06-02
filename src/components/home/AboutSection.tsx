@@ -9,7 +9,7 @@ const highlights = [
     icon: Cloud,
     title: "AWS, end-to-end",
     description:
-      "Well-Architected, multi-tenant infrastructure built with Terraform — ECS Fargate, RDS, S3, VPC, KMS, IAM/ABAC.",
+      "Well-Architected, multi-tenant infrastructure built with Terraform: ECS Fargate, RDS, S3, VPC, KMS, IAM/ABAC.",
   },
   {
     icon: Database,
@@ -57,7 +57,7 @@ export function AboutSection() {
             <p className="text-forest-700 text-lg leading-relaxed">
               I&apos;m a cloud &amp; data engineer with 5+ years building and
               operating production systems on AWS. At FedEx I&apos;ve worked
-              inside a $500M mainframe-retirement initiative — migrating
+              inside a $500M mainframe-retirement initiative, migrating
               mission-critical Freight systems to modern cloud infrastructure,
               leading the org&apos;s first Jenkins→GitHub Actions migration, and
               maintaining 13 enterprise Java/Spring Boot applications.
@@ -68,7 +68,7 @@ export function AboutSection() {
               Terraform across isolated stage and prod VPCs, with per-tenant KMS
               envelope encryption, ABAC task roles, and keyless OIDC deploys. On
               top of it I ship data pipelines and production applications built
-              on Anthropic — and I keep the whole footprint
+              on Anthropic, and I keep the whole footprint
               cost-optimized.
             </p>
             <p className="text-forest-700 text-lg leading-relaxed mt-4">

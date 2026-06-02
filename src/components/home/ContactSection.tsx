@@ -64,8 +64,8 @@ export function ContactSection() {
             </h2>
             <p className="text-forest-200 mt-4 max-w-2xl mx-auto text-lg">
               If you&apos;re hiring for cloud, data engineering, or AWS
-              consulting — or want a Well-Architected build taken from
-              architecture to production — I&apos;d love to connect.
+              consulting, or want a Well-Architected build taken from
+              architecture to production, I&apos;d love to connect.
             </p>
           </motion.div>
 

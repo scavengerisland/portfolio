@@ -174,7 +174,7 @@ export function HeroSection() {
               </div>
 
               <p className="mt-6 text-xs text-forest-400">
-                AWS certifications in progress — Cloud Practitioner &amp;
+                AWS certifications in progress: Cloud Practitioner &amp;
                 Solutions Architect Associate (2026).
               </p>
             </div>

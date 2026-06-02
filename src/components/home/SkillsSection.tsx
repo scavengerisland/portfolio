@@ -93,7 +93,7 @@ export function SkillsSection() {
               Built for AWS &amp; data.
             </h2>
             <p className="text-forest-600 mt-4 max-w-2xl mx-auto">
-              A focused toolkit — proven on enterprise cloud migrations and on
+              A focused toolkit, proven on enterprise cloud migrations and on
               infrastructure I design, deploy, and operate end-to-end.
             </p>
           </motion.div>
@@ -143,7 +143,7 @@ export function SkillsSection() {
             variants={itemVariants}
             className="text-center text-sm text-forest-500 mt-12"
           >
-            AWS certifications in progress — Cloud Practitioner &amp; Solutions
+            AWS certifications in progress: Cloud Practitioner &amp; Solutions
             Architect Associate (2026).
           </motion.p>
         </motion.div>

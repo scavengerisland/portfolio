@@ -7,7 +7,7 @@
  * RDS Postgres + EFS in isolated subnet, S3 + KMS + Secrets Manager,
  * GitHub OIDC CI/CD, CloudWatch/CloudTrail.
  *
- * Intentionally schematic (truthful) — no per-traffic claims.
+ * Intentionally schematic (truthful), no per-traffic claims.
  */
 export function OrqestrateDiagram({ className = "" }: { className?: string }) {
   return (
