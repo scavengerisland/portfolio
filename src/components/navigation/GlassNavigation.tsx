@@ -25,7 +25,7 @@ export function GlassNavigation() {
         <a
           key={link.href}
           href={link.href}
-          className="rounded-full px-2.5 py-2 text-[11px] font-semibold text-forest-800 transition-colors hover:bg-white/60 hover:text-forest-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest-600 sm:px-3.5 sm:text-xs"
+          className="rounded-full px-1.5 py-2 text-[11px] font-semibold text-forest-800 transition-colors hover:bg-white/60 hover:text-forest-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest-600 sm:px-3.5 sm:text-xs"
         >
           {link.label}
         </a>
