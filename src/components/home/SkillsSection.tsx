@@ -76,7 +76,7 @@ const skillCategories = [
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="py-20 lg:py-32 bg-white">
+    <section id="skills" className="py-20 lg:py-32 bg-white/40">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -104,7 +104,7 @@ export function SkillsSection() {
               <motion.div
                 key={category.title}
                 variants={itemVariants}
-                className="bg-cream-50 rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300"
+                className="glass glass-interactive rounded-2xl p-6"
               >
                 {/* Category header */}
                 <div className="flex items-center gap-4 mb-6">
@@ -128,7 +128,7 @@ export function SkillsSection() {
                   {category.skills.map((skill) => (
                     <span
                       key={skill}
-                      className="px-3 py-1.5 bg-white text-forest-700 text-sm rounded-full border border-forest-200 hover:border-forest-400 hover:bg-forest-50 transition-colors duration-200"
+                      className="px-3 py-1.5 bg-white/70 text-forest-700 text-sm rounded-full border border-white/80 shadow-sm hover:border-forest-300 hover:bg-white transition-colors duration-200"
                     >
                       {skill}
                     </span>

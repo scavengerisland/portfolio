@@ -40,9 +40,15 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-20 lg:py-32 bg-forest-900 text-cream-50"
+      className="relative overflow-hidden py-20 lg:py-32 bg-forest-900 text-cream-50"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Light behind the glass */}
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+        <div className="absolute top-1/3 left-1/2 h-[28rem] w-[36rem] -translate-x-1/2 rounded-full bg-forest-500/35 blur-3xl" />
+        <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-[#FF9900]/10 blur-3xl" />
+      </div>
+
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -71,7 +77,7 @@ export function ContactSection() {
           {/* Contact cards */}
           <motion.div
             variants={containerVariants}
-            className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12"
+            className="grid gap-6 mb-12 sm:grid-cols-2 lg:grid-cols-4"
           >
             {contactLinks.map((link) => (
               <motion.a
@@ -80,13 +86,15 @@ export function ContactSection() {
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noopener noreferrer" : undefined}
                 variants={itemVariants}
-                className="group bg-forest-800/60 hover:bg-forest-800 rounded-xl p-6 text-center transition-all duration-200 hover:scale-105 ring-1 ring-forest-800"
+                className="glass-dark glass-interactive group rounded-2xl p-6 text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
               >
-                <div className="w-14 h-14 bg-forest-700 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-forest-600 transition-colors">
-                  <link.icon className="w-6 h-6" />
+                <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-forest-700/70 transition-colors group-hover:bg-forest-600">
+                  <link.icon className="h-6 w-6" />
                 </div>
-                <h3 className="font-semibold text-cream-50 mb-1">{link.name}</h3>
-                <p className="text-forest-300 text-sm truncate">{link.value}</p>
+                <h3 className="mb-1 font-semibold text-cream-50">
+                  {link.name}
+                </h3>
+                <p className="truncate text-sm text-forest-300">{link.value}</p>
               </motion.a>
             ))}
           </motion.div>

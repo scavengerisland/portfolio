@@ -56,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} ${caveat.variable} font-sans`}>
+        <div className="site-aurora" aria-hidden="true" />
         {children}
       </body>
     </html>

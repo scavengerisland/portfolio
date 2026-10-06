@@ -19,11 +19,14 @@ const stats = [
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center py-20 lg:py-0 overflow-hidden">
+    <section
+      id="top"
+      className="relative min-h-screen flex items-center py-24 lg:py-0 overflow-hidden"
+    >
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-20 right-0 w-96 h-96 bg-forest-100 rounded-full blur-3xl opacity-50" />
-        <div className="absolute bottom-20 left-0 w-72 h-72 bg-sage-100 rounded-full blur-3xl opacity-50" />
+        <div className="absolute top-20 right-0 w-96 h-96 bg-forest-200 rounded-full blur-3xl opacity-60" />
+        <div className="absolute bottom-20 left-0 w-72 h-72 bg-[#FF9900] rounded-full blur-3xl opacity-[0.08]" />
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,7 +49,7 @@ export function HeroSection() {
 
             {/* Open-to-work signal */}
             <motion.div variants={itemVariants} className="mb-6">
-              <span className="inline-flex items-center gap-2 rounded-full bg-forest-100 px-4 py-1.5 text-sm font-medium text-forest-700 ring-1 ring-forest-200">
+              <span className="glass-pill inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-medium text-forest-700">
                 <span className="relative flex h-2.5 w-2.5">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-forest-500 opacity-75" />
                   <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-forest-600" />
@@ -68,7 +71,8 @@ export function HeroSection() {
               variants={itemVariants}
               className="text-base sm:text-lg font-semibold text-forest-500 mb-6"
             >
-              Cloud Infrastructure · AWS Delivery · Data Pipelines · Production GenAI
+              Cloud Infrastructure · AWS Delivery · Data Pipelines · Production
+              GenAI
             </motion.p>
 
             {/* Subtitle */}
@@ -98,7 +102,11 @@ export function HeroSection() {
                 <a href="#contact">Hire me</a>
               </Button>
               <Button variant="ghost" size="lg" asChild>
-                <a href={site.resumeHref} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={site.resumeHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FileText className="h-4 w-4" />
                   Resume
                 </a>
@@ -132,7 +140,13 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="order-1 lg:order-2"
           >
-            <div className="relative rounded-3xl bg-forest-900 p-8 shadow-2xl ring-1 ring-forest-800">
+            <div className="relative">
+              {/* Light source behind the glass panel */}
+              <div
+                aria-hidden="true"
+                className="absolute -inset-6 -z-10 rounded-[2.5rem] bg-[radial-gradient(circle_at_20%_15%,rgb(93_165_134/0.5),transparent_55%),radial-gradient(circle_at_85%_80%,rgb(255_153_0/0.2),transparent_50%)] blur-2xl"
+              />
+              <div className="glass-dark relative rounded-3xl p-8 shadow-2xl">
               {/* faux terminal header */}
               <div className="flex items-center gap-2 mb-6">
                 <span className="h-3 w-3 rounded-full bg-rose-400/80" />
@@ -176,6 +190,7 @@ export function HeroSection() {
                 AWS certifications in progress: Cloud Practitioner &amp;
                 Solutions Architect Associate (2026).
               </p>
+              </div>
             </div>
           </motion.div>
         </div>

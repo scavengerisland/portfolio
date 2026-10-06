@@ -75,7 +75,7 @@ const orqStack = [
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="py-20 lg:py-32 bg-cream-100">
+    <section id="projects" className="py-20 lg:py-32 bg-cream-100/60">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -100,7 +100,7 @@ export function ProjectsSection() {
           {/* Flagship: Orqestrate */}
           <motion.article
             variants={itemVariants}
-            className="mb-12 overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-forest-100"
+            className="glass mb-12 overflow-hidden rounded-3xl"
           >
             <div className="grid lg:grid-cols-2">
               {/* Left: copy */}
@@ -150,7 +150,7 @@ export function ProjectsSection() {
                   {orqStack.map((t) => (
                     <span
                       key={t}
-                      className="rounded-full border border-forest-200 bg-cream-50 px-3 py-1 text-xs font-medium text-forest-700"
+                      className="rounded-full border border-white/80 bg-white/60 px-3 py-1 text-xs font-medium text-forest-700"
                     >
                       {t}
                     </span>
@@ -159,7 +159,7 @@ export function ProjectsSection() {
               </div>
 
               {/* Right: architecture diagram */}
-              <div className="flex flex-col justify-center bg-forest-50 p-6 lg:p-8 border-t lg:border-t-0 lg:border-l border-forest-100">
+              <div className="flex flex-col justify-center bg-forest-50/70 p-6 lg:p-8 border-t lg:border-t-0 lg:border-l border-white/60">
                 <OrqestrateDiagram className="w-full h-auto" />
                 <p className="mt-3 text-center text-xs text-forest-500">
                   Architecture · AWS us-east-2 · stage + prod
@@ -174,7 +174,7 @@ export function ProjectsSection() {
               <motion.article
                 key={project.title}
                 variants={itemVariants}
-                className="group flex flex-col rounded-2xl bg-white p-6 shadow-sm ring-1 ring-forest-100 transition-all duration-300 hover:shadow-xl"
+                className="glass glass-interactive group flex flex-col rounded-2xl p-6"
               >
                 <div className="mb-4 flex items-center gap-4">
                   <div
@@ -200,7 +200,7 @@ export function ProjectsSection() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-full border border-forest-200 bg-cream-50 px-2.5 py-1 text-xs font-medium text-forest-700"
+                      className="rounded-full border border-white/80 bg-white/60 px-2.5 py-1 text-xs font-medium text-forest-700"
                     >
                       {tag}
                     </span>

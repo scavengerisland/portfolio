@@ -33,7 +33,7 @@ const highlights = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 lg:py-32 bg-cream-100">
+    <section id="about" className="py-20 lg:py-32 bg-cream-100/60">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -89,9 +89,9 @@ export function AboutSection() {
               <motion.div
                 key={item.title}
                 variants={itemVariants}
-                className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 group"
+                className="glass glass-interactive rounded-2xl p-6 group"
               >
-                <div className="w-14 h-14 bg-forest-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-forest-200 transition-colors">
+                <div className="w-14 h-14 bg-forest-100/80 rounded-full flex items-center justify-center mb-4 group-hover:bg-forest-200 transition-colors">
                   <item.icon className="w-7 h-7 text-forest-600" />
                 </div>
                 <h3 className="font-semibold text-forest-900 mb-1">

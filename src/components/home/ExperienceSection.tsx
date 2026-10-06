@@ -49,7 +49,7 @@ const itemVariants = {
 
 export function ExperienceSection() {
   return (
-    <section id="experience" className="py-20 lg:py-32 bg-white">
+    <section id="experience" className="py-20 lg:py-32 bg-white/40">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -89,7 +89,7 @@ export function ExperienceSection() {
                       <exp.icon className="w-7 h-7" />
                     </div>
 
-                    <div className="flex-1 bg-cream-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="glass flex-1 rounded-2xl p-6">
                       <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
                         <div>
                           <h3 className="text-xl font-semibold text-forest-900">

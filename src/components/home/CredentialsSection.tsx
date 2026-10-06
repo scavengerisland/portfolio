@@ -17,8 +17,14 @@ const certs = [
 
 export function CredentialsSection() {
   return (
-    <section className="py-20 lg:py-28 bg-forest-800">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden py-20 lg:py-28 bg-forest-800">
+      {/* Light behind the glass */}
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+        <div className="absolute -top-24 left-1/4 h-96 w-96 rounded-full bg-forest-500/40 blur-3xl" />
+        <div className="absolute -bottom-32 right-1/5 h-80 w-80 rounded-full bg-[#FF9900]/15 blur-3xl" />
+      </div>
+
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -39,7 +45,7 @@ export function CredentialsSection() {
             {/* Certifications */}
             <motion.div
               variants={itemVariants}
-              className="rounded-2xl bg-forest-700/50 p-6 ring-1 ring-forest-700"
+              className="glass-dark glass-interactive rounded-2xl p-6"
             >
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-forest-600 text-cream-50">
                 <BadgeCheck className="h-6 w-6" />
@@ -62,7 +68,7 @@ export function CredentialsSection() {
             {/* Education */}
             <motion.div
               variants={itemVariants}
-              className="rounded-2xl bg-forest-700/50 p-6 ring-1 ring-forest-700"
+              className="glass-dark glass-interactive rounded-2xl p-6"
             >
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-forest-600 text-cream-50">
                 <GraduationCap className="h-6 w-6" />
@@ -84,7 +90,7 @@ export function CredentialsSection() {
             {/* Awards */}
             <motion.div
               variants={itemVariants}
-              className="rounded-2xl bg-forest-700/50 p-6 ring-1 ring-forest-700"
+              className="glass-dark glass-interactive rounded-2xl p-6"
             >
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-forest-600 text-cream-50">
                 <Award className="h-6 w-6" />
