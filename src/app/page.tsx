@@ -11,13 +11,15 @@ export default function Home() {
   return (
     <>
       <GlassNavigation />
-      <HeroSection />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ExperienceSection />
-      <CredentialsSection />
-      <ContactSection />
+      <main>
+        <HeroSection />
+        <ProjectsSection />
+        <AboutSection />
+        <SkillsSection />
+        <ExperienceSection />
+        <CredentialsSection />
+        <ContactSection />
+      </main>
     </>
   );
 }

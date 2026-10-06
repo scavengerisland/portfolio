@@ -16,12 +16,15 @@ const caveat = Caveat({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ethanh.co"),
-  title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
+  title: "Ethan Hutchison | AI, Full-Stack & Mobile Engineer",
   description:
-    "Cloud & Data Engineer with 5+ years shipping enterprise cloud, DevOps, backend, and data platforms. Recent hands-on AWS delivery with Terraform, ECS Fargate, RDS, secure GitHub OIDC CI/CD, ETL/data pipelines, and production GenAI.",
+    "Software engineer building AI agents, web apps, and mobile products. Two published iOS apps, enterprise experience at FedEx, and hands-on AWS infrastructure.",
   keywords: [
     "Ethan Hutchison",
-    "Cloud Engineer",
+    "Software Engineer",
+    "AI Agents",
+    "React Native",
+    "Next.js",
     "Data Engineer",
     "AWS",
     "Terraform",
@@ -33,18 +36,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Ethan Hutchison" }],
   openGraph: {
-    title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
+    title: "Ethan Hutchison | AI, Full-Stack & Mobile Engineer",
     description:
-      "Enterprise cloud/platform background with recent hands-on AWS infrastructure, data pipelines, and production GenAI.",
+      "AI agents, client applications, and two published iOS apps. Enterprise engineering experience at FedEx.",
     url: "https://ethanh.co",
     siteName: "Ethan Hutchison",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ethan Hutchison | Cloud & Data Engineer (AWS)",
+    title: "Ethan Hutchison | AI, Full-Stack & Mobile Engineer",
     description:
-      "Enterprise cloud/platform background with recent hands-on AWS infrastructure, data pipelines, and production GenAI.",
+      "AI agents, client applications, and two published iOS apps. Enterprise engineering experience at FedEx.",
   },
 };
 

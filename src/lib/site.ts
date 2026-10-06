@@ -1,16 +1,16 @@
 /**
  * Central site configuration: identity, contact, and link data.
- * Mirrors the cloud/platform + recent AWS delivery resume positioning.
+ * Shared identity and links for the portfolio.
  */
 
 export const site = {
   name: "Ethan Hutchison",
-  role: "Cloud & Data Engineer",
-  headline: "Cloud Infrastructure, AWS, Data Pipelines & Production GenAI",
+  role: "Software Engineer",
+  headline: "AI Agents, Full-Stack & Mobile",
   location: "Waco, TX",
-  email: "ethan.hutchison@icloud.com",
+  email: "ethan@ethanh.co",
   // Resume PDF served from /public (Ethan-Hutchison-Resume.pdf).
-  resumeHref: "/Ethan-Hutchison-Resume.pdf",
+  resumeHref: "/Ethan-Hutchison-Resume-AI-Full-Stack.pdf",
   github: "https://github.com/scavengerisland",
   linkedin: "https://linkedin.com/in/ethanhutchison",
 } as const;

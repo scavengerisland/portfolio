@@ -16,13 +16,13 @@ const experiences = [
     highlights: [
       "Led the organization's first migration from Jenkins to GitHub Actions across ~15 applications, standardizing automated CI/CD and a build-once-promote release flow that became the template for future conversions.",
       "Contributed to a $500M mainframe-retirement initiative, moving mission-critical FedEx Freight systems from legacy infrastructure toward modern cloud and platform engineering patterns.",
-      "Administered 13 enterprise Java/Spring Boot apps across configuration, security patching, identity/access controls, and production troubleshooting; improved maintainability and raised test coverage to 80% across production services.",
+      "Administered 13 enterprise Java/Spring Boot apps across configuration, security patching, identity/access controls, and production troubleshooting; improved maintainability and test coverage.",
       "Automated safe, auditable Git repository migration workflows during FedEx Freight's multi-billion-dollar corporate separation.",
       "Drove DevOps modernization (retired 90+ redundant config-server instances) and presented roadmaps to 400+ stakeholders.",
     ],
   },
   {
-    title: "Independent Cloud & Data Consultant",
+    title: "Independent Software Consultant",
     company: "Light Works Studio",
     note: "client engagements & self-built products",
     location: "Remote",
@@ -30,10 +30,11 @@ const experiences = [
     icon: Cloud,
     color: "bg-forest-100 text-forest-700",
     highlights: [
-      "AWS platform & Orqestrate: Applied cloud/platform engineering experience to design and deploy a multi-tenant AWS platform end-to-end in Terraform (ECS Fargate, RDS Postgres, S3/EFS, VPC, ALB) with KMS per-tenant encryption, IAM/ABAC, and secure GitHub OIDC-based CI/CD across two isolated environments. Built an Anthropic-powered platform that runs containerized AI workloads in isolated ECS Fargate workers.",
-      "DMP client engagement: Built an enterprise email-to-ERP data pipeline in Python, processing ~220 purchase orders/day into Epicor. Designed the ingestion flow, validation controls, schema migrations, and human-in-the-loop exception handling.",
-      "Talking Bibles Intl. (client engagement, 2025–Present): Recovered a fully compromised AWS environment (EC2, S3, Lightsail, Route53, IAM) and designed a 3-month stabilization program (DR, centralized secrets, 24/7 monitoring).",
-      "Built production infrastructure for shipped software products with enterprise-grade observability, monitoring, release workflows, and data-modeling practices across Anthropic-powered applications.",
+      "Built and published two iOS apps: LymeTrack and FermentBuddy. Developed the interfaces, data models, reminders, and release workflows with React Native, Expo, and Convex.",
+      "Orqestrate: Build across an AI agent platform, cloud execution, integrations, and workflows. Recent work includes worker readiness, workspace access, provider retries, and marketplace consent.",
+      "Talking Bibles International: Develop a Next.js and Convex CMS for audio content, languages, agreements, and distribution. Also recovered the client's compromised AWS environment.",
+      "DMP: Built a Python email-to-Epicor pipeline with validation, schema migrations, and human review for exceptions.",
+      "Delivered client websites with Next.js and Astro, including forms, editable content, analytics, technical SEO, and accessibility fixes.",
     ],
   },
 ];
@@ -66,8 +67,8 @@ export function ExperienceSection() {
               Enterprise scale, consultant speed.
             </h2>
             <p className="text-forest-600 mt-4 max-w-2xl mx-auto">
-              From FedEx&apos;s $500M modernization work to AWS infrastructure,
-              enterprise data pipelines, and production observability.
+              Enterprise engineering at FedEx, with independent work across
+              mobile products, client applications, and AI systems.
             </p>
           </motion.div>
 

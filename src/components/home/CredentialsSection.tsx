@@ -1,19 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, BadgeCheck, Award } from "lucide-react";
+import { GraduationCap, Smartphone, Award } from "lucide-react";
 import { containerVariants, itemVariants } from "@/lib/site";
-
-const certs = [
-  {
-    name: "AWS Certified Cloud Practitioner",
-    status: "In progress, exam scheduled 2026",
-  },
-  {
-    name: "AWS Certified Solutions Architect – Associate",
-    status: "In progress 2026",
-  },
-];
 
 export function CredentialsSection() {
   return (
@@ -37,7 +26,7 @@ export function CredentialsSection() {
               Credentials
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-cream-50 mt-2">
-              Certifications, education &amp; recognition.
+              Published apps, education &amp; recognition.
             </h2>
           </motion.div>
 
@@ -48,21 +37,23 @@ export function CredentialsSection() {
               className="glass-dark glass-interactive rounded-2xl p-6"
             >
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-forest-600 text-cream-50">
-                <BadgeCheck className="h-6 w-6" />
+                <Smartphone className="h-6 w-6" />
               </div>
               <h3 className="font-semibold text-cream-50 mb-3">
-                AWS Certifications
+                App Store releases
               </h3>
-              <ul className="space-y-3">
-                {certs.map((c) => (
-                  <li key={c.name}>
-                    <p className="text-sm font-medium text-cream-100">
-                      {c.name}
-                    </p>
-                    <p className="text-xs text-forest-300">{c.status}</p>
-                  </li>
-                ))}
-              </ul>
+              <p className="text-sm text-cream-100">
+                LymeTrack and FermentBuddy
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-forest-200">
+                Two iOS apps built and published through Light Works Studio.
+              </p>
+              <a
+                href="#projects"
+                className="mt-4 inline-block text-sm text-cream-100 underline underline-offset-4"
+              >
+                Explore the apps
+              </a>
             </motion.div>
 
             {/* Education */}

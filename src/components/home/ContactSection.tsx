@@ -1,7 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, FileText, MapPin, ArrowRight } from "lucide-react";
+import {
+  Mail,
+  Linkedin,
+  Github,
+  FileText,
+  MapPin,
+  ArrowRight,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { site, containerVariants, itemVariants } from "@/lib/site";
 
@@ -63,14 +70,14 @@ export function ContactSection() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
               </span>
-              Open to AWS / cloud / data-engineering roles
+              Open to contract work and engineering roles
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
               Let&apos;s talk.
             </h2>
             <p className="text-forest-200 mt-4 max-w-2xl mx-auto text-lg">
-              If you&apos;re hiring for cloud/platform engineering, data
-              engineering, or AWS infrastructure work, I&apos;d love to connect.
+              For AI workflows, web applications, or mobile products, let&apos;s
+              discuss what you need to build.
             </p>
           </motion.div>
 
@@ -127,7 +134,7 @@ export function ContactSection() {
               {"< "}Ethan Hutchison{" />"}
             </span>
             <p className="text-forest-500 text-sm mt-2">
-              Cloud &amp; Data Engineer · Cloud Infrastructure &amp; AWS
+              Software Engineer · AI Agents, Full-Stack &amp; Mobile
             </p>
           </motion.div>
         </motion.div>

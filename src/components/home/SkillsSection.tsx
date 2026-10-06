@@ -1,152 +1,51 @@
-"use client";
-
-import { motion } from "framer-motion";
-import { Cloud, Terminal, Database, Sparkles } from "lucide-react";
-import { containerVariants, itemVariants } from "@/lib/site";
-
-/**
- * Skill groups mirror the AWS-aligned resume exactly.
- * HONESTY: no Spark/Kafka/Glue/Athena/Redshift/EMR/dbt/Airflow/Snowflake/Databricks.
- */
-const skillCategories = [
+const categories = [
   {
-    title: "Cloud Infrastructure & AWS",
-    level: "Advanced",
-    icon: Cloud,
-    color: "bg-[#FF9900]", // AWS orange
-    skills: [
-      "ECS Fargate & EC2",
-      "RDS PostgreSQL, S3 & EFS",
-      "VPC, ALB & Route53",
-      "IAM, KMS & Secrets Manager",
-      "CloudWatch & CloudTrail",
-      "Backup / DR",
-      "Multi-Tenant Architecture",
-      "Well-Architected & Cost Optimization",
-    ],
+    title: "AI agents and integrations",
+    evidence: "Orqestrate and Context Hub",
+    skills:
+      "Anthropic API, tool integrations, agent workflows, MCP, OAuth, PostgreSQL, pgvector",
   },
   {
-    title: "Infrastructure as Code & DevOps",
-    level: "Advanced",
-    icon: Terminal,
-    color: "bg-[#5C4EE5]", // terraform-ish purple
-    skills: [
-      "Terraform",
-      "GitHub Actions OIDC CI/CD",
-      "Docker & Containerization",
-      "Multi-Environment (stage / prod)",
-      "Jenkins",
-      "Cloud Migration",
-      "Incident Response",
-      "Monitoring (CloudWatch, Sentry, Splunk, AppDynamics, PostHog)",
-    ],
+    title: "Web and backend",
+    evidence: "Talking Bibles CMS and client websites",
+    skills:
+      "TypeScript, React, Next.js, Convex, Python, Java, Spring Boot, REST APIs, S3",
   },
   {
-    title: "Data Engineering & Backend",
-    level: "Advanced",
-    icon: Database,
-    color: "bg-forest-600",
-    skills: [
-      "ETL / ELT Pipelines",
-      "PostgreSQL & SQL",
-      "SQL / NoSQL Data Modeling",
-      "Data Migration & Schema Design",
-      "Python",
-      "Java & Spring Boot",
-      "REST APIs & Webhooks",
-      "Backend Data Workflows",
-    ],
+    title: "Mobile products",
+    evidence: "LymeTrack and FermentBuddy",
+    skills:
+      "React Native, Expo, EAS, Convex, Clerk, subscriptions, notifications, mobile releases",
   },
   {
-    title: "Generative AI & Application Dev",
-    level: "Advanced",
-    icon: Sparkles,
-    color: "bg-[#D97757]", // Anthropic clay
-    skills: [
-      "Anthropic API",
-      "Agentic / Multi-Agent AI",
-      "Anthropic on Amazon Bedrock",
-      "Production AI Workloads",
-      "AI-Assisted Development",
-      "TypeScript & React / React Native",
-      "Product Architecture",
-    ],
+    title: "Cloud and delivery",
+    evidence: "FedEx and independent platforms",
+    skills:
+      "AWS, Terraform, Docker, GitHub Actions, OIDC, Jenkins, IAM, KMS, Sentry, PostHog",
   },
 ];
-
 export function SkillsSection() {
   return (
-    <section id="skills" className="py-20 lg:py-32 bg-white/40">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={containerVariants}
-        >
-          {/* Section header */}
-          <motion.div variants={itemVariants} className="text-center mb-16">
-            <span className="text-forest-600 font-medium text-sm uppercase tracking-wider">
-              Technical Skills
-            </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-900 mt-2">
-              Built for AWS &amp; data.
-            </h2>
-            <p className="text-forest-600 mt-4 max-w-2xl mx-auto">
-              A focused toolkit, proven on enterprise cloud migrations and on
-              infrastructure I design, deploy, and operate end-to-end.
-            </p>
-          </motion.div>
-
-          {/* Skills grid */}
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {skillCategories.map((category) => (
-              <motion.div
-                key={category.title}
-                variants={itemVariants}
-                className="glass glass-interactive rounded-2xl p-6"
-              >
-                {/* Category header */}
-                <div className="flex items-center gap-4 mb-6">
-                  <div
-                    className={`w-12 h-12 ${category.color} rounded-xl flex items-center justify-center text-white shadow-sm`}
-                  >
-                    <category.icon className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-forest-900 leading-tight">
-                      {category.title}
-                    </h3>
-                    <span className="text-xs font-medium text-forest-500 uppercase tracking-wide">
-                      {category.level}
-                    </span>
-                  </div>
-                </div>
-
-                {/* Skill tags */}
-                <div className="flex flex-wrap gap-2">
-                  {category.skills.map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-3 py-1.5 bg-white/70 text-forest-700 text-sm rounded-full border border-white/80 shadow-sm hover:border-forest-300 hover:bg-white transition-colors duration-200"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          {/* Certifications note */}
-          <motion.p
-            variants={itemVariants}
-            className="text-center text-sm text-forest-500 mt-12"
-          >
-            AWS certifications in progress: Cloud Practitioner &amp; Solutions
-            Architect Associate (2026).
-          </motion.p>
-        </motion.div>
+    <section id="skills" className="py-16 lg:py-24">
+      <div className="container px-5 sm:px-8">
+        <h2 className="text-3xl font-bold text-forest-900 sm:text-4xl">
+          Skills tied to real work.
+        </h2>
+        <div className="mt-10 grid gap-8 md:grid-cols-2">
+          {categories.map((item) => (
+            <div key={item.title} className="border-t border-forest-200 pt-6">
+              <h3 className="text-xl font-semibold text-forest-900">
+                {item.title}
+              </h3>
+              <p className="mt-2 text-sm font-medium text-forest-600">
+                {item.evidence}
+              </p>
+              <p className="mt-4 leading-relaxed text-forest-700">
+                {item.skills}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

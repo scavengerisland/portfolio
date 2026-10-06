@@ -35,7 +35,12 @@
     @apply bg-background text-foreground antialiased;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-sans font-semibold tracking-tight;
   }
 }
@@ -121,7 +126,11 @@ html {
   bottom: -18%;
   left: -12%;
   background:
-    radial-gradient(circle at 60% 40%, rgb(141 195 171 / 0.45), transparent 60%),
+    radial-gradient(
+      circle at 60% 40%,
+      rgb(141 195 171 / 0.45),
+      transparent 60%
+    ),
     radial-gradient(circle at 30% 70%, rgb(199 176 154 / 0.3), transparent 55%);
   animation: aurora-drift-b 32s ease-in-out infinite alternate;
 }
@@ -272,5 +281,51 @@ html {
 
   .glass-interactive:hover {
     transform: none;
+  }
+}
+
+.portfolio-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border: 1px solid #265946;
+  border-radius: 999px;
+  padding: 0.8rem 1.25rem;
+  background: #265946;
+  color: #fdfcfb;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.portfolio-button-light {
+  background: rgb(255 255 255 / 0.7);
+  color: #265946;
+}
+a:focus-visible {
+  outline: 2px solid #2d6f55;
+  outline-offset: 5px;
+}
+section[id] {
+  scroll-margin-top: 6rem;
+}
+@media (max-width: 767px) {
+  #experience .flex.gap-6 {
+    gap: 0.75rem;
+  }
+  #experience .w-16 {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #experience .flex-1 {
+    min-width: 0;
+    padding: 1rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  .animate-ping {
+    animation: none !important;
   }
 }
