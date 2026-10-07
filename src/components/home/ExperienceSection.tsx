@@ -6,6 +6,22 @@ import { containerVariants } from "@/lib/site";
 
 const experiences = [
   {
+    title: "Software Consultant | Lead Developer, Orqestrate",
+    company: "Light Works Consulting",
+    note: "client engagements & self-built products",
+    location: "Remote",
+    duration: "2024 – Present",
+    icon: Cloud,
+    color: "bg-forest-100 text-forest-700",
+    highlights: [
+      "Orqestrate: Lead developer on an AI orchestration platform. Build across the agent runtime, application, integrations, and cloud infrastructure.",
+      "Build agent workflows, workspace access controls, provider retries, and marketplace consent with Python, TypeScript, Temporal, and Anthropic.",
+      "Built and published two iOS apps: LymeTrack and FermentBuddy. Developed the interfaces, data models, reminders, and release workflows with React Native, Expo, and Convex.",
+      "Talking Bibles International: Develop an AI-integrated custom CMS with Next.js and Convex for audio content, languages, agreements, and distribution. Also recovered the client's compromised AWS environment.",
+      "Delivered client websites with Next.js and Astro, including forms, editable content, analytics, technical SEO, and accessibility fixes.",
+    ],
+  },
+  {
     title: "Software Developer II, Cloud & DevOps",
     company: "FedEx",
     note: "Promoted Intern → Dev I → Dev II",
@@ -19,22 +35,6 @@ const experiences = [
       "Administered 13 enterprise Java/Spring Boot apps across configuration, security patching, identity/access controls, and production troubleshooting; improved maintainability and test coverage.",
       "Automated safe, auditable Git repository migration workflows during FedEx Freight's multi-billion-dollar corporate separation.",
       "Drove DevOps modernization (retired 90+ redundant config-server instances) and presented roadmaps to 400+ stakeholders.",
-    ],
-  },
-  {
-    title: "Independent Software Consultant",
-    company: "Light Works Studio",
-    note: "client engagements & self-built products",
-    location: "Remote",
-    duration: "2024 – Present",
-    icon: Cloud,
-    color: "bg-forest-100 text-forest-700",
-    highlights: [
-      "Built and published two iOS apps: LymeTrack and FermentBuddy. Developed the interfaces, data models, reminders, and release workflows with React Native, Expo, and Convex.",
-      "Orqestrate: Build across an AI agent platform, cloud execution, integrations, and workflows. Recent work includes worker readiness, workspace access, provider retries, and marketplace consent.",
-      "Talking Bibles International: Develop a Next.js and Convex CMS for audio content, languages, agreements, and distribution. Also recovered the client's compromised AWS environment.",
-      "DMP: Built a Python email-to-Epicor pipeline with validation, schema migrations, and human review for exceptions.",
-      "Delivered client websites with Next.js and Astro, including forms, editable content, analytics, technical SEO, and accessibility fixes.",
     ],
   },
 ];
@@ -67,8 +67,8 @@ export function ExperienceSection() {
               Enterprise scale, consultant speed.
             </h2>
             <p className="text-forest-600 mt-4 max-w-2xl mx-auto">
-              Enterprise engineering at FedEx, with independent work across
-              mobile products, client applications, and AI systems.
+              Consulting through Light Works, lead development on Orqestrate,
+              and enterprise engineering at FedEx.
             </p>
           </motion.div>
 

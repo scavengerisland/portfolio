@@ -7,14 +7,14 @@ export const caseStudies = [
   {
     slug: "orqestrate",
     name: "Orqestrate",
-    category: "AI agents and workflows",
-    role: "Founder and software engineer",
+    category: "AI orchestration platform",
+    role: "Lead developer, Light Works Consulting",
     summary:
-      "An agent platform that connects AI work with projects, tools, and cloud execution.",
+      "An AI orchestration platform that connects agents with projects, tools, and cloud execution.",
     problem:
       "Useful agents need more than a model call. They need access to tools, clear permissions, durable workflows, and recoverable failures.",
     contribution:
-      "I build across the application, agent runtime, integrations, and AWS infrastructure. My recent work includes workflow admission, workspace membership, connector behavior, and marketplace consent flows.",
+      "Through Light Works Consulting, I lead development across the application, agent runtime, integrations, and AWS infrastructure. My recent work includes workflow admission, workspace membership, connector behavior, and marketplace consent flows.",
     decisions: [
       "Use isolated cloud workers and separate environments to contain agent execution.",
       "Keep permissions and credential consent explicit at the point of use.",
@@ -40,11 +40,11 @@ export const caseStudies = [
     category: "Client application",
     role: "Independent software consultant",
     summary:
-      "A content system for audio recordings, languages, agreements, and distribution workflows.",
+      "An AI-integrated custom CMS for audio recordings, languages, agreements, and distribution workflows.",
     problem:
       "The team needs to manage related content and agreements, import existing records, and prepare audio for distribution without losing context.",
     contribution:
-      "I develop the Next.js and Convex application, including data models, import workflows, audio assets, and staff-facing tools. The work also builds on my earlier AWS recovery engagement.",
+      "I develop the AI-integrated Next.js and Convex application, including data models, import workflows, audio assets, and staff tools. The work also builds on my earlier AWS recovery engagement.",
     decisions: [
       "Model recordings, languages, and agreements as related records.",
       "Use import dry runs and validation before changing existing data.",

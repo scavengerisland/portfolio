@@ -119,28 +119,7 @@ export function ProjectsSection() {
             </article>
           ))}
         </div>
-        <div className="mt-12 grid gap-8 border-t border-forest-200 pt-8 md:grid-cols-2">
-          <div>
-            <h3 className="text-xl font-semibold text-forest-900">
-              Business automation
-            </h3>
-            <p className="mt-3 leading-relaxed text-forest-700">
-              For DMP, I built a Python pipeline that turns purchase-order
-              emails into Epicor ERP records. The work includes validation,
-              schema migrations, and human review for exceptions.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-forest-900">
-              AI integration and memory
-            </h3>
-            <p className="mt-3 leading-relaxed text-forest-700">
-              Context Hub connects a PostgreSQL ledger, session capture, and an
-              MCP gateway. It uses the external Hindsight memory engine with
-              pgvector and OAuth access.
-            </p>
-          </div>
-        </div>
+
       </div>
     </section>
   );

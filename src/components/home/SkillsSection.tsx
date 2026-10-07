@@ -1,7 +1,7 @@
 const categories = [
   {
     title: "AI agents and integrations",
-    evidence: "Orqestrate and Context Hub",
+    evidence: "Orqestrate",
     skills:
       "Anthropic API, tool integrations, agent workflows, MCP, OAuth, PostgreSQL, pgvector",
   },

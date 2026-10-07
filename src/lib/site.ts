@@ -5,11 +5,11 @@
 
 export const site = {
   name: "Ethan Hutchison",
-  role: "Software Engineer",
-  headline: "AI Agents, Full-Stack & Mobile",
+  role: "Lead Developer",
+  headline: "AI Orchestration, Full-Stack & Mobile",
   location: "Waco, TX",
   email: "ethan@ethanh.co",
-  // Resume PDF served from /public (Ethan-Hutchison-Resume.pdf).
+  // Serve the current resume from /public.
   resumeHref: "/Ethan-Hutchison-Resume-AI-Full-Stack.pdf",
   github: "https://github.com/scavengerisland",
   linkedin: "https://linkedin.com/in/ethanhutchison",
